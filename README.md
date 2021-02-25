@@ -1,6 +1,6 @@
 ![image](images/microchip.jpg) 
 
-## %repoDescritpion%
+## DPSK3 POWER BUCK ADAPTIVE GAIN CONTROL
 
 Board Image if any.
 
