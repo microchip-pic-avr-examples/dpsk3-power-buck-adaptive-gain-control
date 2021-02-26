@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Digital Power Starter Kit 3 Firmware: Buck Converter Library</title>
+<title>Digital Power Starter Kit 3 Firmware: Data Types</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,30 +104,52 @@ $(document).ready(function(){initNavTree('a00476.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
-<div class="title">Buck Converter Library<div class="ingroups"><a class="el" href="a00539.html">Device Driver Library Layer</a></div></div>  </div>
+<div class="title">Data Types<div class="ingroups"><a class="el" href="a00527.html">Device Driver Library Layer</a> &raquo; <a class="el" href="a00454.html">Buck Converter Library</a> &raquo; <a class="el" href="a00465.html">Buck Converter Library Modules</a> &raquo; <a class="el" href="a00472.html">Buck Special Functions</a> &raquo; <a class="el" href="a00474.html">Properties</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>List of data types of the Special Function state machine extensions.  
+<a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Buck Converter Library:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Data Types:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00476.svg" width="578" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00476.svg" width="228" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:a00477"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00477.html">Buck Converter Library API</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00487"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00487.html">Buck Converter Library Modules</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga3c2021030c83c9decfce3a892febcb9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00476.html#ga3c2021030c83c9decfce3a892febcb9d">BUCK_SPECIAL_FUNCTIONS_e</a> { <b>CS_OFSET_CALIBRATION</b>
+ }</td></tr>
+<tr class="memdesc:ga3c2021030c83c9decfce3a892febcb9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of special function sub-states.  <a href="a00476.html#ga3c2021030c83c9decfce3a892febcb9d">More...</a><br /></td></tr>
+<tr class="separator:ga3c2021030c83c9decfce3a892febcb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The Buck Converter Library is a comprehensive device driver providing a state machine managing initialization, configurable, protected startup, runtime reference tuning and auto-restart capabilities. Special Functions are available to extend the essential features of the state machine supporting specific, optional sub-circuits and functions.</p>
-<p>This device driver also includes functions for the configuration of device peripherals by providing templates of the fundamental peripheral set initialization required to drive and control the supported type of power converter, significantly reducing the amount of parameters users have to select and set.</p>
-<p>All settings are made available through the <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> data structure, described in the Public Properties / Data Types section of this documentation. </p>
+<p>List of data types of the Special Function state machine extensions. </p>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga3c2021030c83c9decfce3a892febcb9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c2021030c83c9decfce3a892febcb9d">&#9670;&nbsp;</a></span>BUCK_SPECIAL_FUNCTIONS_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00476.html#ga3c2021030c83c9decfce3a892febcb9d">BUCK_SPECIAL_FUNCTIONS_e</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of special function sub-states. </p>
+<p>This enumeration provides labels for indices of the private array BuckConverterSpecialFunctions[]. External functions call special functions by calling the high level function <a class="el" href="a00473.html#ga8573aaa632abde3518f8a4448ff73cf7" title="This is the public function call access point to call dedicated special sub-functions.">drv_BuckConverter_SpecialFunctionExecute()</a> by handing in a pointer to a power converter object and the Special Function state to execute. This allows the extension of state machine to include Special Functions available. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00254_source.html#l00050">50</a> of file <a class="el" href="a00254_source.html">dev_buck_special_functions.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.20-->

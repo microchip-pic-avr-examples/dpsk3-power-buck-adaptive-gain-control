@@ -1,11 +1,7 @@
 var a00356 =
 [
-    [ "Capture Compare Module (SCCP/MCCP)", "a00357.html", "a00357" ],
-    [ "Digital-To-Analog Converter Module (DAC)", "a00358.html", "a00358" ],
-    [ "Digital Signal Processor Converter Module (DSP)", "a00359.html", "a00359" ],
-    [ "General Purpose Input/Output (GPIO)", "a00360.html", "a00360" ],
-    [ "Operational Amplifier Module (AMP)", "a00361.html", "a00361" ],
-    [ "Oscillator Module (OSC)", "a00362.html", "a00362" ],
-    [ "Peripheral Pin Select Module (PPS)", "a00363.html", "a00363" ],
-    [ "High-Speed PWM Module (HSPWM)", "a00364.html", "a00364" ]
+    [ "p33c_GpioInstance_ConfigRead", "a00356.html#ga57ba471912470e16a01d27589e011147", null ],
+    [ "p33c_GpioInstance_ConfigWrite", "a00356.html#gadf3bba95ba8b4f2c34af8678ea5e7ff0", null ],
+    [ "p33c_GpioInstance_Dispose", "a00356.html#gaa1640e884e367bc54c91864dc3a3d7ed", null ],
+    [ "p33c_GpioInstance_GetHandle", "a00356.html#ga4d67af688d8f7f911d79107974e11e6b", null ]
 ];

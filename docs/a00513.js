@@ -1,8 +1,7 @@
 var a00513 =
 [
-    [ "v_loop_Initialize", "a00513.html#ga62d45a18f3dd47fa691fbb463f90e051", null ],
-    [ "v_loop_Precharge", "a00513.html#ga3cdf7d86ab440015768706f04bd588e9", null ],
-    [ "v_loop_PTermUpdate", "a00513.html#gac782e99f408e1d33286076e69a14f781", null ],
-    [ "v_loop_Reset", "a00513.html#gabb35e824b8586b680f54d59975ada3c7", null ],
-    [ "v_loop_Update", "a00513.html#gab8180f1cb973d694be5caffaec3ce940", null ]
+    [ "Basic MCU Initialization", "a00514.html", "a00514" ],
+    [ "Main Oscillator Initialization", "a00515.html", "a00515" ],
+    [ "Device Pin Configuration", "a00516.html", "a00516" ],
+    [ "Digital Signal Processor Configuration", "a00517.html", "a00517" ]
 ];

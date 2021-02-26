@@ -1,5 +1,7 @@
 var a00503 =
 [
-    [ "adcore_diff_mask", "a00503.html#ga215a815cad00177161895a74f526cfc1", null ],
-    [ "adcore_mask", "a00503.html#ga8312ee90c2e73a1ad6bc8b0e545368c2", null ]
+    [ "Public Functions", "a00504.html", "a00504" ],
+    [ "Public Properties", "a00505.html", "a00505" ],
+    [ "Private Functions", "a00506.html", null ],
+    [ "Private Properties", "a00507.html", null ]
 ];

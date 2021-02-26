@@ -1,4 +1,5 @@
 var a00473 =
 [
-    [ "_BUCK_VLOOP_Interrupt", "a00418.html#ga4d26e0585523e4ab162ca9868517b878", null ]
+    [ "CurrentSenseOffsetCalibration", "a00473.html#ga337549d1d76534d9b092d7c8bdaf686a", null ],
+    [ "drv_BuckConverter_SpecialFunctionExecute", "a00473.html#ga8573aaa632abde3518f8a4448ff73cf7", null ]
 ];

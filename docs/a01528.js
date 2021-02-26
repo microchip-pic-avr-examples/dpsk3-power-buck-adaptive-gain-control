@@ -1,7 +1,6 @@
 var a01528 =
 [
-    [ "control_mode", "a01528.html#a87ffbab0a97e0b24bf304a8829041dab", null ],
-    [ "i_ref", "a01528.html#a0e321445042c37cbb7283d5de4583c09", null ],
-    [ "no_of_phases", "a01528.html#ae002814d52c388ce7d51c8d566d63489", null ],
-    [ "v_ref", "a01528.html#a1c39765936057b7b2b1b90a4126d3f80", null ]
+    [ "factor", "a01528.html#aa9a9b14569ac48dc290e2df6162fb42f", null ],
+    [ "offset", "a01528.html#acba44d6d5a7e55c468854c5487df135c", null ],
+    [ "scaler", "a01528.html#aefa09a3fb2e5db126ad75513aede5fb3", null ]
 ];

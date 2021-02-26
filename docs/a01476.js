@@ -1,6 +1,8 @@
 var a01476 =
 [
-    [ "enabled", "a01476.html#a085e9fc0863cee4864cf51dcfe1e32df", null ],
-    [ "refresh", "a01476.html#adc2298ffda0c853e699e6da9098f82ae", null ],
-    [ "screen", "a01476.html#aea467a9fc04f0771215b952d26bc4392", null ]
+    [ "ControlModes", "a01476.html#ae6ee4010e24872f5eda7319fd21ee25f", null ],
+    [ "OpStateOpCodes", "a01476.html#a828f1c330e2aeb5b9d2db1c5936cf086", null ],
+    [ "OpStateReturnValues", "a01476.html#aedb094fb2eddc45cd58e26d47139f34e", null ],
+    [ "StatusFlags", "a01476.html#a6724e9f45f6aa73bf8322d0aaecbce89", null ],
+    [ "SubStateOpCodes", "a01476.html#a9b09dca4c4bd35f70befa5fb5fcf03b3", null ]
 ];

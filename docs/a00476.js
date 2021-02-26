@@ -1,5 +1,4 @@
 var a00476 =
 [
-    [ "Buck Converter Library API", "a00477.html", "a00477" ],
-    [ "Buck Converter Library Modules", "a00487.html", "a00487" ]
+    [ "BUCK_SPECIAL_FUNCTIONS_e", "a00476.html#ga3c2021030c83c9decfce3a892febcb9d", null ]
 ];

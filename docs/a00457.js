@@ -1,6 +1,6 @@
 var a00457 =
 [
-    [ "DEBUGGING_LED_s", "a01480.html", [
-      [ "period", "a01480.html#a48f363c7bcd47589472b59f0a7dfb74b", null ]
-    ] ]
+    [ "Variables & Constants", "a00458.html", "a00458" ],
+    [ "Data Types", "a00459.html", "a00459" ],
+    [ "Defines and Macros", "a00460.html", "a00460" ]
 ];

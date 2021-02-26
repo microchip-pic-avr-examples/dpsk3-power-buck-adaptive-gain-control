@@ -1,7 +1,8 @@
 var a00491 =
 [
-    [ "BuckConverterRampUpSubStateMachine", "a00491.html#gad90aaba79b75de05468a961a39c9c018", null ],
-    [ "BuckConverterStateMachine", "a00491.html#ga34e9e076d0bb91ad7b4ce328bc03dfee", null ],
-    [ "BuckRampUpSubStateList_size", "a00491.html#gaf52bd106cdf677965715261049bbc072", null ],
-    [ "BuckStateList_size", "a00491.html#ga908907079f862f9793ac00bd89d653ce", null ]
+    [ "v_loop_Initialize", "a00491.html#ga62d45a18f3dd47fa691fbb463f90e051", null ],
+    [ "v_loop_Precharge", "a00491.html#ga3cdf7d86ab440015768706f04bd588e9", null ],
+    [ "v_loop_PTermUpdate", "a00491.html#gac782e99f408e1d33286076e69a14f781", null ],
+    [ "v_loop_Reset", "a00491.html#gabb35e824b8586b680f54d59975ada3c7", null ],
+    [ "v_loop_Update", "a00491.html#gab8180f1cb973d694be5caffaec3ce940", null ]
 ];

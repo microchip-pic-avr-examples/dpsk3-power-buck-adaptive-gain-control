@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Digital Power Starter Kit 3 Firmware: DSP_CONFIG_s Struct Reference</title>
+<title>Digital Power Starter Kit 3 Firmware: P33C_GPIO_INSTANCE_s Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -106,260 +106,292 @@ $(document).ready(function(){initNavTree('a00812.html',''); initResizable(); });
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">DSP_CONFIG_s Struct Reference</div>  </div>
+<div class="title">P33C_GPIO_INSTANCE_s Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="a00050_source.html">common/p33c_pral/p33c_dsp.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="a00044_source.html">common/p33c_pral/p33c_gpio.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for DSP_CONFIG_s:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for P33C_GPIO_INSTANCE_s:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00810.svg" width="130" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00810.svg" width="190" height="279"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a73492277fba4922af67e8576c08179ec"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a53f5957b66e321c47d5b302af983b243"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
 <tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73492277fba4922af67e8576c08179ec"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a73492277fba4922af67e8576c08179ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff504e1ec593a15668fcbfa54587a365"><td class="memItemLeft" align="right" valign="top">volatile CORCON_IF_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#aff504e1ec593a15668fcbfa54587a365">IF</a>: 1</td></tr>
-<tr class="separator:aff504e1ec593a15668fcbfa54587a365"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fc421400c1db427c8eaeeda12f07c53"><td class="memItemLeft" align="right" valign="top">volatile CORCON_RND_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a7fc421400c1db427c8eaeeda12f07c53">RND</a>: 1</td></tr>
-<tr class="separator:a7fc421400c1db427c8eaeeda12f07c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4dba9a1e3289e7319aeb0daed2019c"><td class="memItemLeft" align="right" valign="top">volatile CORCON_SFA_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#aac4dba9a1e3289e7319aeb0daed2019c">SFA</a>: 1</td></tr>
-<tr class="separator:aac4dba9a1e3289e7319aeb0daed2019c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab87e7b522647443b2ec8a88f8f4ffb9b"><td class="memItemLeft" align="right" valign="top">volatile CORCON_IPL3_STAT_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#ab87e7b522647443b2ec8a88f8f4ffb9b">IPL3</a>: 1</td></tr>
-<tr class="separator:ab87e7b522647443b2ec8a88f8f4ffb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486090beb639cc281df3c06bef63f766"><td class="memItemLeft" align="right" valign="top">volatile CORCON_ACCSAT_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a486090beb639cc281df3c06bef63f766">ACCSAT</a>: 1</td></tr>
-<tr class="separator:a486090beb639cc281df3c06bef63f766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa359987b3a6b8a237805885b966dc81a"><td class="memItemLeft" align="right" valign="top">volatile CORCON_SATDW_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#aa359987b3a6b8a237805885b966dc81a">SATDW</a>: 1</td></tr>
-<tr class="separator:aa359987b3a6b8a237805885b966dc81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeae4ae5e746a02e93c151fc147341b4d"><td class="memItemLeft" align="right" valign="top">volatile CORCON_SATB_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#aeae4ae5e746a02e93c151fc147341b4d">SATB</a>: 1</td></tr>
-<tr class="separator:aeae4ae5e746a02e93c151fc147341b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a362f08368b4e385577771e45e76f4947"><td class="memItemLeft" align="right" valign="top">volatile CORCON_SATA_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a362f08368b4e385577771e45e76f4947">SATA</a>: 1</td></tr>
-<tr class="separator:a362f08368b4e385577771e45e76f4947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d1186b6dc12a08d88e3678344cab22c"><td class="memItemLeft" align="right" valign="top">volatile CORCON_DL_STAT_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a3d1186b6dc12a08d88e3678344cab22c">DL</a>: 3</td></tr>
-<tr class="separator:a3d1186b6dc12a08d88e3678344cab22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14345e8c2b6bc8a7bdf9360225c41476"><td class="memItemLeft" align="right" valign="top">volatile CORCON_EDT_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a14345e8c2b6bc8a7bdf9360225c41476">EDT</a>: 1</td></tr>
-<tr class="separator:a14345e8c2b6bc8a7bdf9360225c41476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb667368d90b1e8f7bbc3d8d7b7c3d0a"><td class="memItemLeft" align="right" valign="top">volatile CORCON_US_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#aeb667368d90b1e8f7bbc3d8d7b7c3d0a">US</a>: 2</td></tr>
-<tr class="separator:aeb667368d90b1e8f7bbc3d8d7b7c3d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32e93b068e309da5a319a7a69f3b3ff5"><td class="memItemLeft" align="right" valign="top">volatile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a32e93b068e309da5a319a7a69f3b3ff5">unsigned</a>: 1</td></tr>
-<tr class="separator:a32e93b068e309da5a319a7a69f3b3ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32b94c0b1bf7baba073ee78f9f04de35"><td class="memItemLeft" align="right" valign="top">volatile CORCON_VAR_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a32b94c0b1bf7baba073ee78f9f04de35">VAR</a>: 1</td></tr>
-<tr class="separator:a32b94c0b1bf7baba073ee78f9f04de35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f5957b66e321c47d5b302af983b243"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a53f5957b66e321c47d5b302af983b243">ANSELx</a></td></tr>
+<tr class="separator:a53f5957b66e321c47d5b302af983b243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae0117ff0d8b9f82529853806398809"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae0117ff0d8b9f82529853806398809"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a1ae0117ff0d8b9f82529853806398809">TRISx</a></td></tr>
+<tr class="separator:a1ae0117ff0d8b9f82529853806398809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8dbb5d90979e4badfcda4e75b76494"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8dbb5d90979e4badfcda4e75b76494"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#adb8dbb5d90979e4badfcda4e75b76494">PORTx</a></td></tr>
+<tr class="separator:adb8dbb5d90979e4badfcda4e75b76494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907d0c6d84725b5dc62cfb1cf43e6be6"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907d0c6d84725b5dc62cfb1cf43e6be6"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a907d0c6d84725b5dc62cfb1cf43e6be6">LATx</a></td></tr>
+<tr class="separator:a907d0c6d84725b5dc62cfb1cf43e6be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03fc94eeb0e812f7703129c197c1010"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03fc94eeb0e812f7703129c197c1010"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#af03fc94eeb0e812f7703129c197c1010">ODCx</a></td></tr>
+<tr class="separator:af03fc94eeb0e812f7703129c197c1010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcec4a18629c2b7fd54296f7f9068a5"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcec4a18629c2b7fd54296f7f9068a5"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a2bcec4a18629c2b7fd54296f7f9068a5">CNPUx</a></td></tr>
+<tr class="separator:a2bcec4a18629c2b7fd54296f7f9068a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc09d3bbb2aa7f03a228b44029fc196c"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc09d3bbb2aa7f03a228b44029fc196c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#adc09d3bbb2aa7f03a228b44029fc196c">CNPDx</a></td></tr>
+<tr class="separator:adc09d3bbb2aa7f03a228b44029fc196c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d77c9f7dbf6a1cf460873a0934dbee5"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d77c9f7dbf6a1cf460873a0934dbee5"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a4d77c9f7dbf6a1cf460873a0934dbee5">CNCONx</a></td></tr>
+<tr class="separator:a4d77c9f7dbf6a1cf460873a0934dbee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eda3883a212a1e04d25102c0161b8ff"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eda3883a212a1e04d25102c0161b8ff"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a8eda3883a212a1e04d25102c0161b8ff">CNEN0x</a></td></tr>
+<tr class="separator:a8eda3883a212a1e04d25102c0161b8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba11f44457d53351704089c70f1315e"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba11f44457d53351704089c70f1315e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a6ba11f44457d53351704089c70f1315e">CNSTATx</a></td></tr>
+<tr class="separator:a6ba11f44457d53351704089c70f1315e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d68119a3d282cfe7b689d90c9eae1c"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d68119a3d282cfe7b689d90c9eae1c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#ac8d68119a3d282cfe7b689d90c9eae1c">CNEN1x</a></td></tr>
+<tr class="separator:ac8d68119a3d282cfe7b689d90c9eae1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959989c373f7906811fac07399e77dde"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memItemLeft" >&#160;&#160;&#160;volatile struct tagLATABITS&#160;&#160;&#160;<a class="el" href="a00812.html#a94d4185c4c4a85643a3815d6caa1b29a">bits</a></td></tr>
+<tr class="separator:a94d4185c4c4a85643a3815d6caa1b29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0c55f449560b03ce0ac43270c26600"><td class="memItemLeft" >&#160;&#160;&#160;volatile uint16_t&#160;&#160;&#160;<a class="el" href="a00812.html#a3f0c55f449560b03ce0ac43270c26600">value</a></td></tr>
+<tr class="separator:a3f0c55f449560b03ce0ac43270c26600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959989c373f7906811fac07399e77dde"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00812.html#a959989c373f7906811fac07399e77dde">CNFx</a></td></tr>
+<tr class="separator:a959989c373f7906811fac07399e77dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00157">157</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00044_source.html#l00055">55</a> of file <a class="el" href="a00044_source.html">p33c_gpio.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a id="a73492277fba4922af67e8576c08179ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73492277fba4922af67e8576c08179ec">&#9670;&nbsp;</a></span>@1</h2>
+<a id="a53f5957b66e321c47d5b302af983b243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53f5957b66e321c47d5b302af983b243">&#9670;&nbsp;</a></span>ANSELx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union { ... } </td>
+          <td class="memname">union { ... }  ANSELx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a486090beb639cc281df3c06bef63f766"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a486090beb639cc281df3c06bef63f766">&#9670;&nbsp;</a></span>ACCSAT</h2>
+<a id="a94d4185c4c4a85643a3815d6caa1b29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d4185c4c4a85643a3815d6caa1b29a">&#9670;&nbsp;</a></span>bits</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_ACCSAT_e ACCSAT</td>
+          <td class="memname">volatile struct tagLATABITS bits</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00165">165</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00044_source.html#l00126">126</a> of file <a class="el" href="a00044_source.html">p33c_gpio.h</a>.</p>
 
 </div>
 </div>
-<a id="a3d1186b6dc12a08d88e3678344cab22c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d1186b6dc12a08d88e3678344cab22c">&#9670;&nbsp;</a></span>DL</h2>
+<a id="a4d77c9f7dbf6a1cf460873a0934dbee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d77c9f7dbf6a1cf460873a0934dbee5">&#9670;&nbsp;</a></span>CNCONx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_DL_STAT_e DL</td>
+          <td class="memname">union { ... }  CNCONx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00170">170</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="a14345e8c2b6bc8a7bdf9360225c41476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14345e8c2b6bc8a7bdf9360225c41476">&#9670;&nbsp;</a></span>EDT</h2>
+<a id="a8eda3883a212a1e04d25102c0161b8ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eda3883a212a1e04d25102c0161b8ff">&#9670;&nbsp;</a></span>CNEN0x</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_EDT_e EDT</td>
+          <td class="memname">union { ... }  CNEN0x</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00171">171</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="aff504e1ec593a15668fcbfa54587a365"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff504e1ec593a15668fcbfa54587a365">&#9670;&nbsp;</a></span>IF</h2>
+<a id="ac8d68119a3d282cfe7b689d90c9eae1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d68119a3d282cfe7b689d90c9eae1c">&#9670;&nbsp;</a></span>CNEN1x</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_IF_e IF</td>
+          <td class="memname">union { ... }  CNEN1x</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00161">161</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="ab87e7b522647443b2ec8a88f8f4ffb9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab87e7b522647443b2ec8a88f8f4ffb9b">&#9670;&nbsp;</a></span>IPL3</h2>
+<a id="a959989c373f7906811fac07399e77dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959989c373f7906811fac07399e77dde">&#9670;&nbsp;</a></span>CNFx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_IPL3_STAT_e IPL3</td>
+          <td class="memname">union { ... }  CNFx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00164">164</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="a7fc421400c1db427c8eaeeda12f07c53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fc421400c1db427c8eaeeda12f07c53">&#9670;&nbsp;</a></span>RND</h2>
+<a id="adc09d3bbb2aa7f03a228b44029fc196c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc09d3bbb2aa7f03a228b44029fc196c">&#9670;&nbsp;</a></span>CNPDx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_RND_e RND</td>
+          <td class="memname">union { ... }  CNPDx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00162">162</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="a362f08368b4e385577771e45e76f4947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a362f08368b4e385577771e45e76f4947">&#9670;&nbsp;</a></span>SATA</h2>
+<a id="a2bcec4a18629c2b7fd54296f7f9068a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bcec4a18629c2b7fd54296f7f9068a5">&#9670;&nbsp;</a></span>CNPUx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_SATA_e SATA</td>
+          <td class="memname">union { ... }  CNPUx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00168">168</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="aeae4ae5e746a02e93c151fc147341b4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeae4ae5e746a02e93c151fc147341b4d">&#9670;&nbsp;</a></span>SATB</h2>
+<a id="a6ba11f44457d53351704089c70f1315e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba11f44457d53351704089c70f1315e">&#9670;&nbsp;</a></span>CNSTATx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_SATB_e SATB</td>
+          <td class="memname">union { ... }  CNSTATx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00167">167</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="aa359987b3a6b8a237805885b966dc81a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa359987b3a6b8a237805885b966dc81a">&#9670;&nbsp;</a></span>SATDW</h2>
+<a id="a907d0c6d84725b5dc62cfb1cf43e6be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907d0c6d84725b5dc62cfb1cf43e6be6">&#9670;&nbsp;</a></span>LATx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_SATDW_e SATDW</td>
+          <td class="memname">union { ... }  LATx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00166">166</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="aac4dba9a1e3289e7319aeb0daed2019c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac4dba9a1e3289e7319aeb0daed2019c">&#9670;&nbsp;</a></span>SFA</h2>
+<a id="af03fc94eeb0e812f7703129c197c1010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af03fc94eeb0e812f7703129c197c1010">&#9670;&nbsp;</a></span>ODCx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_SFA_e SFA</td>
+          <td class="memname">union { ... }  ODCx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00163">163</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="a32e93b068e309da5a319a7a69f3b3ff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32e93b068e309da5a319a7a69f3b3ff5">&#9670;&nbsp;</a></span>unsigned</h2>
+<a id="adb8dbb5d90979e4badfcda4e75b76494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8dbb5d90979e4badfcda4e75b76494">&#9670;&nbsp;</a></span>PORTx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned</td>
+          <td class="memname">union { ... }  PORTx</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00173">173</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
 </div>
 </div>
-<a id="aeb667368d90b1e8f7bbc3d8d7b7c3d0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb667368d90b1e8f7bbc3d8d7b7c3d0a">&#9670;&nbsp;</a></span>US</h2>
+<a id="a1ae0117ff0d8b9f82529853806398809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae0117ff0d8b9f82529853806398809">&#9670;&nbsp;</a></span>TRISx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile CORCON_US_e US</td>
+          <td class="memname">union { ... }  TRISx</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00172">172</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
 
 </div>
 </div>
@@ -375,28 +407,12 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00177">177</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
-
-</div>
-</div>
-<a id="a32b94c0b1bf7baba073ee78f9f04de35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32b94c0b1bf7baba073ee78f9f04de35">&#9670;&nbsp;</a></span>VAR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile CORCON_VAR_e VAR</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="a00050_source.html#l00174">174</a> of file <a class="el" href="a00050_source.html">p33c_dsp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00044_source.html#l00058">58</a> of file <a class="el" href="a00044_source.html">p33c_gpio.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>dpsk_buck_agc.X/sources/common/p33c_pral/<a class="el" href="a00050_source.html">p33c_dsp.h</a></li>
+<li>dpsk_buck_agc.X/sources/common/p33c_pral/<a class="el" href="a00044_source.html">p33c_gpio.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -404,7 +420,7 @@ Data Fields</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00812.html">DSP_CONFIG_s</a></li>
+    <li class="navelem"><a class="el" href="a00812.html">P33C_GPIO_INSTANCE_s</a></li>
     <p style="height: 12px; padding-bottom: 8px; padding-right: 12px; vertical-align: bottom; text-align: right; font-size: 90%;">© 2021, Microchip Technology Inc.</p>
   </ul>
 </div>

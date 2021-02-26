@@ -1,4 +1,6 @@
 var a00518 =
 [
-    [ "__PSDCLD_VERSION", "a00518.html#ga39110329b3127929de102c5d810f83f1", null ]
+    [ "User Peripheral Initialization", "a00519.html", "a00519" ],
+    [ "Digital-to-Analog Converter", "a00520.html", "a00520" ],
+    [ "Operational Amplifier Configuration", "a00521.html", "a00521" ]
 ];

@@ -1,6 +1,8 @@
 var a01540 =
 [
-    [ "factor", "a01540.html#aa9a9b14569ac48dc290e2df6162fb42f", null ],
-    [ "offset", "a01540.html#acba44d6d5a7e55c468854c5487df135c", null ],
-    [ "scaler", "a01540.html#aefa09a3fb2e5db126ad75513aede5fb3", null ]
+    [ "enabled", "a01540.html#a085e9fc0863cee4864cf51dcfe1e32df", null ],
+    [ "io_type", "a01540.html#a3451100070bc5449a21daa618dca87cd", null ],
+    [ "pin", "a01540.html#ac64e25be1a4e0e3f4db659fff41763b0", null ],
+    [ "polarity", "a01540.html#a98d20232971d53a8992b562306df4cbb", null ],
+    [ "port", "a01540.html#a5790090efaaa7d01ec029fb7da620b38", null ]
 ];

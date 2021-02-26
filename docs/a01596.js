@@ -1,7 +1,7 @@
 var a01596 =
 [
-    [ "AgcFactor", "a01596.html#a33a039fe8965b322341074ddefe53881", null ],
-    [ "AgcMedian", "a01596.html#a3c0670b2b7a0412426c46eed6d621e77", null ],
-    [ "AgcScaler", "a01596.html#ac97f6143fca6e6fc9f433dfe402666b3", null ],
-    [ "ptrAgcObserverFunction", "a01596.html#ab4475a4c794f6fe13b0bd7c17190cfe0", null ]
+    [ "ptrDProvControlError", "a01596.html#a6fa6d9ee16172bc38667fa42c719f3bd", null ],
+    [ "ptrDProvControlInput", "a01596.html#a69148c2c54a089c711120fff25fb7476", null ],
+    [ "ptrDProvControlInputCompensated", "a01596.html#acde428aaa0e39d9f081ca8fba07c0de8", null ],
+    [ "ptrDProvControlOutput", "a01596.html#a01d375870a9b4ee0dcc4fe8d68340906", null ]
 ];

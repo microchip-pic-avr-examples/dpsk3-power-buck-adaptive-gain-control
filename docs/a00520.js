@@ -1,5 +1,7 @@
 var a00520 =
 [
-    [ "Device Start Up", "a00521.html", "a00521" ],
-    [ "Main Loop", "a00522.html", "a00522" ]
+    [ "sysDacModule_Initialize", "a00520.html#gab420e63336f317e197b1cb8861561c3f", null ],
+    [ "sysDacOutput_Disable", "a00520.html#gae4c70ecb7b13f328f1458f5f2cfbe48a", null ],
+    [ "sysDacOutput_Enable", "a00520.html#ga2f97c3082e0d6f724cea482c10c2d08f", null ],
+    [ "sysDacOutput_Initialize", "a00520.html#ga231ffdd65b0ae520b467cbc6fbbf8d03", null ]
 ];

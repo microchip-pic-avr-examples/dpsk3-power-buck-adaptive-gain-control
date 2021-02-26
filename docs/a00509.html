@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Digital Power Starter Kit 3 Firmware: Variables &amp; Constants</title>
+<title>Digital Power Starter Kit 3 Firmware: Device Start Up</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,146 +104,111 @@ $(document).ready(function(){initNavTree('a00509.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
+<a href="#groups">Modules</a>  </div>
   <div class="headertitle">
-<div class="title">Variables &amp; Constants<div class="ingroups"><a class="el" href="a00539.html">Device Driver Library Layer</a> &raquo; <a class="el" href="a00476.html">Buck Converter Library</a> &raquo; <a class="el" href="a00487.html">Buck Converter Library Modules</a> &raquo; <a class="el" href="a00506.html">Buck Peripheral Templates</a> &raquo; <a class="el" href="a00508.html">Properties</a></div></div>  </div>
+<div class="title">Device Start Up<div class="ingroups"><a class="el" href="a00508.html">Firmware Architecture</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Device Start Up.  
+<a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Variables &amp; Constants:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Device Start Up:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00509.svg" width="292" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00509.svg" width="536" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:gac26c1311a275f3076a198a09227e8147"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="a00724.html">P33C_DAC_MODULE_s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00509.html#gac26c1311a275f3076a198a09227e8147">buckDacModuleConfig</a></td></tr>
-<tr class="memdesc:gac26c1311a275f3076a198a09227e8147"><td class="mdescLeft">&#160;</td><td class="mdescRight">DAC module default configuration.  <a href="a00509.html#gac26c1311a275f3076a198a09227e8147">More...</a><br /></td></tr>
-<tr class="separator:gac26c1311a275f3076a198a09227e8147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab25d1a3889c78f4213ba349255d346c7"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="a00752.html">P33C_DAC_INSTANCE_s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00509.html#gab25d1a3889c78f4213ba349255d346c7">buckDacInstanceConfig</a></td></tr>
-<tr class="memdesc:gab25d1a3889c78f4213ba349255d346c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">DAC generator default configuration.  <a href="a00509.html#gab25d1a3889c78f4213ba349255d346c7">More...</a><br /></td></tr>
-<tr class="separator:gab25d1a3889c78f4213ba349255d346c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2d420ce844bd8e8c1f81d173d3c3b549"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="a00928.html">P33C_PWM_MODULE_s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00509.html#ga2d420ce844bd8e8c1f81d173d3c3b549">buckPwmModuleConfig</a></td></tr>
-<tr class="memdesc:ga2d420ce844bd8e8c1f81d173d3c3b549"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM module default configuration.  <a href="a00509.html#ga2d420ce844bd8e8c1f81d173d3c3b549">More...</a><br /></td></tr>
-<tr class="separator:ga2d420ce844bd8e8c1f81d173d3c3b549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae543c7d56ffc52bf7455d0a58d5ad70b"><td class="memItemLeft" align="right" valign="top">volatile struct <a class="el" href="a01112.html">P33C_PWM_GENERATOR_s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00509.html#gae543c7d56ffc52bf7455d0a58d5ad70b">buckPwmGeneratorConfig</a></td></tr>
-<tr class="memdesc:gae543c7d56ffc52bf7455d0a58d5ad70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM generator default configuration.  <a href="a00509.html#gae543c7d56ffc52bf7455d0a58d5ad70b">More...</a><br /></td></tr>
-<tr class="separator:gae543c7d56ffc52bf7455d0a58d5ad70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:a00513"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00513.html">Initializing Essential Chip Resources</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00518"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00518.html">Initializing Hardware-Specific Chip Resources</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00522"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00522.html">Initializing Firmware Tasks</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="gab25d1a3889c78f4213ba349255d346c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab25d1a3889c78f4213ba349255d346c7">&#9670;&nbsp;</a></span>buckDacInstanceConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">buckDacInstanceConfig</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= </div>
-<div class="line">{</div>
-<div class="line">    .DACxCONL.value = <a class="code" href="a00511.html#ga4040cf3dc25dad9e41a1da945b07d296">REG_DACxCONL</a>, </div>
-<div class="line">    .DACxCONH.value = <a class="code" href="a00511.html#gaa6e98055bc0d35732906fb5b0785b30a">REG_DACxCONH</a>, </div>
-<div class="line">    .DACxDATL.value = 0x0000,       </div>
-<div class="line">    .DACxDATH.value = 0x0000,       </div>
-<div class="line">    .SLPxCONL.value = <a class="code" href="a00511.html#ga512689ef8611be9275733eb81f13707f">REG_SLPxCONL</a>, </div>
-<div class="line">    .SLPxCONH.value = <a class="code" href="a00511.html#ga91d0af2b9336b872cb114c3b58efa261">REG_SLPxCONH</a>, </div>
-<div class="line">    .SLPxDAT.value = 0x0000         </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p>DAC generator default configuration. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00281_source.html#l00001">1</a> of file <a class="el" href="a00281_source.html">dev_buck_ptemp_dac.c</a>.</p>
-
-</div>
-</div>
-<a id="gac26c1311a275f3076a198a09227e8147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac26c1311a275f3076a198a09227e8147">&#9670;&nbsp;</a></span>buckDacModuleConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">buckDacModuleConfig</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= </div>
-<div class="line">{</div>
-<div class="line">    .DacModuleCtrl1L.value = 0x0000, </div>
-<div class="line">    .DacModuleCtrl2L.value = 0x0000, </div>
-<div class="line">    .DacModuleCtrl2H.value = 0x0000  </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p>DAC module default configuration. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00281_source.html#l00001">1</a> of file <a class="el" href="a00281_source.html">dev_buck_ptemp_dac.c</a>.</p>
-
-</div>
-</div>
-<a id="gae543c7d56ffc52bf7455d0a58d5ad70b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae543c7d56ffc52bf7455d0a58d5ad70b">&#9670;&nbsp;</a></span>buckPwmGeneratorConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">buckPwmGeneratorConfig</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>PWM generator default configuration. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00287_source.html#l00001">1</a> of file <a class="el" href="a00287_source.html">dev_buck_ptemp_pwm.c</a>.</p>
-
-</div>
-</div>
-<a id="ga2d420ce844bd8e8c1f81d173d3c3b549"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2d420ce844bd8e8c1f81d173d3c3b549">&#9670;&nbsp;</a></span>buckPwmModuleConfig</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">buckPwmModuleConfig</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>PWM module default configuration. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00287_source.html#l00001">1</a> of file <a class="el" href="a00287_source.html">dev_buck_ptemp_pwm.c</a>.</p>
-
-</div>
-</div>
+<p>Device Start Up. </p>
+<p>When the device comes out of RESET, it is running off the selected oscillator at its natural frequency. The startup oscillator type is declared in the FOSCSEL register by setting the respective configuration bits (FUSES). FUSES (configuration bits) can only be set at compile time before the settings are programmed into the device. </p><div class="fragment"><div class="line"><span class="preprocessor">#pragma config FNOSC = FRCDIVN </span></div>
+</div><!-- fragment --><ul>
+<li><b>Step 1 (System Initialization):</b><br  />
+<br  />
+ The first step focuses on essential IC resources only, such as oscillator and device inputs/outputs. The following modules are initialized in the given order:<br  />
+<br  />
+<ul>
+<li><b>Main Oscillator: </b><br  />
+ In this design the internal 8 MHz RC oscillator is used. Hence, the very first step in the firmware is to set up the internal PLL to operate the CPU at maximum speed of 100 MIPS (100 MHz instruction cycle). <br  />
+<br  />
+</li>
+<li><b>Auxiliary Oscillator: </b><br  />
+ The Auxiliary Oscillator is a second PLL, which can be set up to a different frequency than the main oscillator and provided to peripheral modules. This auxiliary clock signal is used by the PWM and ADC module to perform at maximum speed and performance. In this design, the auxiliary clock is set up for 500 MHz base clock. <br  />
+<br  />
+</li>
+<li><b>GPIO Reset: </b><br  />
+ To make sure there are no conflicts with individual application tasks and related peripheral configurations, all General Purpose Inputs/Outputs (GPIOs) are set as digital inputs with its internal control signals set LOW. <br  />
+<br  />
+</li>
+<li><b>Digital Signal Processor Logic (DSP): </b><br  />
+ The internal Digital Signal Processing (DSP) engine is configured for fractional multiplication with saturation enabled. This configuration is optimized for control loop computations. The control loops are able to self-manage their required DSP configuration, however, this would add execution cycles and increase the overall CPU load. As no other task/process in this application uses the DSP, the DSP configuration has been taken out of the control loop CPU configuration self-management and added to the system initialization of the project as static configuration to reduce the overall CPU workload. <br  />
+<br  />
+</li>
+</ul>
+</li>
+<li><b>Step 2 (User Peripheral Initialization):</b><br  />
+<br  />
+ The second step initializes user-defined peripherals, which are not managed by any other part of the application. The following modules are initialized in the given order:<br  />
+<br  />
+<ul>
+<li><b>Digital-To-Analog Converter (DAC)</b><br  />
+ This design requires an independent reference voltage to adjust external current sense shunt amplifier devices to offset their output voltage, allowing the monitoring of the full triangular inductor current waveform in discontinuous as well as continuous conduction mode. Each DAC module of dsPIC33 also includes an analog high-sped comparator, which is not used in this configuration. <br  />
+<br  />
+</li>
+<li><b>Operational Amplifier (OPA)</b><br  />
+ The internally generated reference voltage (see DAC configuration above) is buffered by using one of the on-chip Operational amplifiers. This section assigns the input pin to this op-amp and enables the output. <br  />
+<br  />
+</li>
+</ul>
+</li>
+<li><b>Step 3 (User Peripheral Initialization):</b><br  />
+<br  />
+ In the third step all tasks of the application are initialized by calling their default API INITIALIZE function. Each task module is self-managing and does not require additional parameters to be considered at this function call level. However, each task provides an individual application layer which is used to configure the task and all its implied settings and parameters. (Please refer to the documentation of each task for details.)<br  />
+<br  />
+<ul>
+<li><b>Power Control Task</b><br  />
+ The Power Control Task covers the complete management of the included power supply circuit and control loops. This tasks utilizes a standard single- and multiphase buck converter library, which provides a complete runtime state-machine managing self-initialization, soft-start, soft-stop, runtime reference tuning and auto-restart. It also includes enhanced features such as automatic adjustment to pre-biased outputs, feedback offset compensation and supports different control modes such as voltage mode control (VMC) or average current mode control (ACMC). <br  />
+<br  />
+</li>
+<li><b>Fault Monitor Task</b><br  />
+ The Fault Monitor Task is a global task providing application-wide fault detection. The separation of power converter control and fault monitoring allows the consideration of application dependencies between tasks. <br  />
+<br  />
+</li>
+</ul>
+</li>
+<li><p class="startli"><b>Step 4 (OS Timer Initialization):</b><br  />
+<br  />
+ In the fourth step the operating system time base is initialized. In this slim application the operating system consists of two different task execution levels on two priority levels: <br  />
+<br  />
+</p><ul>
+<li><b>Low-Priority Task Execution</b><br  />
+ the low priority tasks are executed from a common function called <a class="el" href="a00511.html#gaa1ec8154dbf983b02b3b2dc186c5079d">sysLowPriorityTasks_Execute</a>. This task layer is executed with lowest priority (=0). <br  />
+<br  />
+</li>
+<li><b>High-Priority Task Execution</b><br  />
+ High priority tasks are executed from the Timer Interrupt Service Routine (ISR) of the OS timebase timer. The interupt priority is set one above the low priority task level (default = 2). In this application the alternate working registers of the device have been configured to automatically switch context when the timer interrupt is triggered by setting FUSE CTXT1 = IPL2. <div class="fragment"><div class="line"><span class="preprocessor">#pragma config CTXT1 = IPL2 </span></div>
+</div><!-- fragment --></li>
+</ul>
+<p class="startli"><br  />
+<br  />
+ <br  />
+<br  />
+ </p>
+</li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa00511_html_ga91d0af2b9336b872cb114c3b58efa261"><div class="ttname"><a href="a00511.html#ga91d0af2b9336b872cb114c3b58efa261">REG_SLPxCONH</a></div><div class="ttdeci">#define REG_SLPxCONH</div><div class="ttdoc">SLPxCONH: DACx SLOPE CONTROL REGISTER LOW.</div><div class="ttdef"><b>Definition:</b> <a href="a00284_source.html#l00153">dev_buck_ptemp_dac.h:153</a></div></div>
-<div class="ttc" id="aa00511_html_ga4040cf3dc25dad9e41a1da945b07d296"><div class="ttname"><a href="a00511.html#ga4040cf3dc25dad9e41a1da945b07d296">REG_DACxCONL</a></div><div class="ttdeci">#define REG_DACxCONL</div><div class="ttdoc">DACxCONL: DACx CONTROL REGISTER LOW.</div><div class="ttdef"><b>Definition:</b> <a href="a00284_source.html#l00072">dev_buck_ptemp_dac.h:72</a></div></div>
-<div class="ttc" id="aa00511_html_ga512689ef8611be9275733eb81f13707f"><div class="ttname"><a href="a00511.html#ga512689ef8611be9275733eb81f13707f">REG_SLPxCONL</a></div><div class="ttdeci">#define REG_SLPxCONL</div><div class="ttdoc">SLPxCONL: DACx SLOPE CONTROL REGISTER LOW.</div><div class="ttdef"><b>Definition:</b> <a href="a00284_source.html#l00127">dev_buck_ptemp_dac.h:127</a></div></div>
-<div class="ttc" id="aa00511_html_gaa6e98055bc0d35732906fb5b0785b30a"><div class="ttname"><a href="a00511.html#gaa6e98055bc0d35732906fb5b0785b30a">REG_DACxCONH</a></div><div class="ttdeci">#define REG_DACxCONH</div><div class="ttdoc">DACxCONH: DACx CONTROL REGISTER LOW.</div><div class="ttdef"><b>Definition:</b> <a href="a00284_source.html#l00098">dev_buck_ptemp_dac.h:98</a></div></div>
 <!-- HTML footer for doxygen 1.8.20-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
