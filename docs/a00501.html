@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Digital Power Starter Kit 3 Firmware: Defines and Macros</title>
+<title>Digital Power Starter Kit 3 Firmware: Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -103,1164 +103,686 @@ $(document).ready(function(){initNavTree('a00501.html',''); initResizable(); });
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Defines and Macros<div class="ingroups"><a class="el" href="a00539.html">Device Driver Library Layer</a> &raquo; <a class="el" href="a00466.html">Buck Converter Library</a> &raquo; <a class="el" href="a00477.html">Buck Converter Library Modules</a> &raquo; <a class="el" href="a00496.html">Buck Peripheral Templates</a> &raquo; <a class="el" href="a00498.html">Properties</a></div></div>  </div>
+<div class="title">Functions<div class="ingroups"><a class="el" href="a00539.html">Device Driver Library Layer</a> &raquo; <a class="el" href="a00476.html">Buck Converter Library</a> &raquo; <a class="el" href="a00487.html">Buck Converter Library Modules</a> &raquo; <a class="el" href="a00500.html">Buck Peripheral Configuration</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Functions of the second library layer.  
+<a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Defines and Macros:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Functions:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00501.svg" width="278" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501.svg" width="331" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
-<tr class="memitem:ga1b53aa998d151a03b54feaccfa0e6529"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga1b53aa998d151a03b54feaccfa0e6529">ADC_POWERUP_TIMEOUT</a>&#160;&#160;&#160;5000</td></tr>
-<tr class="memdesc:ga1b53aa998d151a03b54feaccfa0e6529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Digital-To-Analog Converter and High Speed Comparator Special Function Register Set.  <a href="a00501.html#ga1b53aa998d151a03b54feaccfa0e6529">More...</a><br /></td></tr>
-<tr class="separator:ga1b53aa998d151a03b54feaccfa0e6529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f18a4ac55243c434199e4c03a1916d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga2f18a4ac55243c434199e4c03a1916d0">ADC_CORE_MASK</a>&#160;&#160;&#160;0b0000000010001111</td></tr>
-<tr class="memdesc:ga2f18a4ac55243c434199e4c03a1916d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This define masks all cores of ADC.  <a href="a00501.html#ga2f18a4ac55243c434199e4c03a1916d0">More...</a><br /></td></tr>
-<tr class="separator:ga2f18a4ac55243c434199e4c03a1916d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cd06b0701dd972bea484aa284b538fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga5cd06b0701dd972bea484aa284b538fb">ADC_CORE0_MASK_INDEX</a>&#160;&#160;&#160;0b0000000000000001</td></tr>
-<tr class="memdesc:ga5cd06b0701dd972bea484aa284b538fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This define masks core 0 of ADC.  <a href="a00501.html#ga5cd06b0701dd972bea484aa284b538fb">More...</a><br /></td></tr>
-<tr class="separator:ga5cd06b0701dd972bea484aa284b538fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga22888dc4e47b6c12697bb0d833a104d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga22888dc4e47b6c12697bb0d833a104d2">ADC_CORE1_MASK_INDEX</a>&#160;&#160;&#160;0b0000000000000010</td></tr>
-<tr class="memdesc:ga22888dc4e47b6c12697bb0d833a104d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This define masks core 1 of ADC.  <a href="a00501.html#ga22888dc4e47b6c12697bb0d833a104d2">More...</a><br /></td></tr>
-<tr class="separator:ga22888dc4e47b6c12697bb0d833a104d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d134fed01267e7e24128c763c0bcbf4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga0d134fed01267e7e24128c763c0bcbf4">ADC_CORE2_MASK_INDEX</a>&#160;&#160;&#160;0b0000000000000100</td></tr>
-<tr class="memdesc:ga0d134fed01267e7e24128c763c0bcbf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This define masks core 2 of ADC.  <a href="a00501.html#ga0d134fed01267e7e24128c763c0bcbf4">More...</a><br /></td></tr>
-<tr class="separator:ga0d134fed01267e7e24128c763c0bcbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga20a79307af387c2b58e0a26eba340201"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga20a79307af387c2b58e0a26eba340201">ADC_CORE3_MASK_INDEX</a>&#160;&#160;&#160;0b0000000000001000</td></tr>
-<tr class="memdesc:ga20a79307af387c2b58e0a26eba340201"><td class="mdescLeft">&#160;</td><td class="mdescRight">This define masks core 3 of ADC.  <a href="a00501.html#ga20a79307af387c2b58e0a26eba340201">More...</a><br /></td></tr>
-<tr class="separator:ga20a79307af387c2b58e0a26eba340201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga759d38bf0d8fb74fd456d3c9aa1b0bae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga759d38bf0d8fb74fd456d3c9aa1b0bae">ADC_SHRCORE_MASK_INDEX</a>&#160;&#160;&#160;0b0000000010000000</td></tr>
-<tr class="memdesc:ga759d38bf0d8fb74fd456d3c9aa1b0bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This define masks shared core of ADC.  <a href="a00501.html#ga759d38bf0d8fb74fd456d3c9aa1b0bae">More...</a><br /></td></tr>
-<tr class="separator:ga759d38bf0d8fb74fd456d3c9aa1b0bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4040cf3dc25dad9e41a1da945b07d296"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga4040cf3dc25dad9e41a1da945b07d296">REG_DACxCONL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga4040cf3dc25dad9e41a1da945b07d296"><td class="mdescLeft">&#160;</td><td class="mdescRight">DACxCONL: DACx CONTROL REGISTER LOW.  <a href="a00501.html#ga4040cf3dc25dad9e41a1da945b07d296">More...</a><br /></td></tr>
-<tr class="separator:ga4040cf3dc25dad9e41a1da945b07d296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa6e98055bc0d35732906fb5b0785b30a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaa6e98055bc0d35732906fb5b0785b30a">REG_DACxCONH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gaa6e98055bc0d35732906fb5b0785b30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DACxCONH: DACx CONTROL REGISTER LOW.  <a href="a00501.html#gaa6e98055bc0d35732906fb5b0785b30a">More...</a><br /></td></tr>
-<tr class="separator:gaa6e98055bc0d35732906fb5b0785b30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga512689ef8611be9275733eb81f13707f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga512689ef8611be9275733eb81f13707f">REG_SLPxCONL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga512689ef8611be9275733eb81f13707f"><td class="mdescLeft">&#160;</td><td class="mdescRight">SLPxCONL: DACx SLOPE CONTROL REGISTER LOW.  <a href="a00501.html#ga512689ef8611be9275733eb81f13707f">More...</a><br /></td></tr>
-<tr class="separator:ga512689ef8611be9275733eb81f13707f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga91d0af2b9336b872cb114c3b58efa261"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga91d0af2b9336b872cb114c3b58efa261">REG_SLPxCONH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga91d0af2b9336b872cb114c3b58efa261"><td class="mdescLeft">&#160;</td><td class="mdescRight">SLPxCONH: DACx SLOPE CONTROL REGISTER LOW.  <a href="a00501.html#ga91d0af2b9336b872cb114c3b58efa261">More...</a><br /></td></tr>
-<tr class="separator:ga91d0af2b9336b872cb114c3b58efa261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga03939cc1c50b0907dbc0a96b5560b86d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga03939cc1c50b0907dbc0a96b5560b86d">REG_PCLKCON</a>&#160;&#160;&#160;0b0000000000000011</td></tr>
-<tr class="memdesc:ga03939cc1c50b0907dbc0a96b5560b86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCLKCON: PWM CLOCK CONTROL REGISTER.  <a href="a00501.html#ga03939cc1c50b0907dbc0a96b5560b86d">More...</a><br /></td></tr>
-<tr class="separator:ga03939cc1c50b0907dbc0a96b5560b86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga966a169f22dd7e325d189cab51a74b1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga966a169f22dd7e325d189cab51a74b1f">REG_CMBTRIGL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga966a169f22dd7e325d189cab51a74b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">CMBTRIGL: COMBINATIONAL TRIGGER REGISTER LOW.  <a href="a00501.html#ga966a169f22dd7e325d189cab51a74b1f">More...</a><br /></td></tr>
-<tr class="separator:ga966a169f22dd7e325d189cab51a74b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5f93a9d03d5f53c6f76be0e80dab06e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga5f93a9d03d5f53c6f76be0e80dab06e8">REG_CMBTRIGH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga5f93a9d03d5f53c6f76be0e80dab06e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">CMBTRIGH: COMBINATIONAL TRIGGER REGISTER HIGH.  <a href="a00501.html#ga5f93a9d03d5f53c6f76be0e80dab06e8">More...</a><br /></td></tr>
-<tr class="separator:ga5f93a9d03d5f53c6f76be0e80dab06e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac90eb36b08b0a043073a9c0a48010cd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gac90eb36b08b0a043073a9c0a48010cd7">REG_LOGCONA</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gac90eb36b08b0a043073a9c0a48010cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOGCONA: COMBINATORIAL PWM LOGIC CONTROL REGISTER A.  <a href="a00501.html#gac90eb36b08b0a043073a9c0a48010cd7">More...</a><br /></td></tr>
-<tr class="separator:gac90eb36b08b0a043073a9c0a48010cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga26be7973bcedb9ceeb3ffd18ae3a32c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga26be7973bcedb9ceeb3ffd18ae3a32c4">REG_LOGCONB</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga26be7973bcedb9ceeb3ffd18ae3a32c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOGCONB: COMBINATORIAL PWM LOGIC CONTROL REGISTER B.  <a href="a00501.html#ga26be7973bcedb9ceeb3ffd18ae3a32c4">More...</a><br /></td></tr>
-<tr class="separator:ga26be7973bcedb9ceeb3ffd18ae3a32c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c70cfa785bdb39ee738d69d15968a72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga4c70cfa785bdb39ee738d69d15968a72">REG_LOGCONC</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga4c70cfa785bdb39ee738d69d15968a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOGCONC: COMBINATORIAL PWM LOGIC CONTROL REGISTER C.  <a href="a00501.html#ga4c70cfa785bdb39ee738d69d15968a72">More...</a><br /></td></tr>
-<tr class="separator:ga4c70cfa785bdb39ee738d69d15968a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85c8082a04495b4730139dc98ade1b40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga85c8082a04495b4730139dc98ade1b40">REG_LOGCOND</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga85c8082a04495b4730139dc98ade1b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOGCOND: COMBINATORIAL PWM LOGIC CONTROL REGISTER D.  <a href="a00501.html#ga85c8082a04495b4730139dc98ade1b40">More...</a><br /></td></tr>
-<tr class="separator:ga85c8082a04495b4730139dc98ade1b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0d82fd8e3346bbf8cce473e51d68c37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gae0d82fd8e3346bbf8cce473e51d68c37">REG_LOGCONE</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gae0d82fd8e3346bbf8cce473e51d68c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOGCONE: COMBINATORIAL PWM LOGIC CONTROL REGISTER E.  <a href="a00501.html#gae0d82fd8e3346bbf8cce473e51d68c37">More...</a><br /></td></tr>
-<tr class="separator:gae0d82fd8e3346bbf8cce473e51d68c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga690bdfb21f33a8d0097a517795a7a670"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga690bdfb21f33a8d0097a517795a7a670">REG_LOGCONF</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga690bdfb21f33a8d0097a517795a7a670"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOGCONF: COMBINATORIAL PWM LOGIC CONTROL REGISTER F.  <a href="a00501.html#ga690bdfb21f33a8d0097a517795a7a670">More...</a><br /></td></tr>
-<tr class="separator:ga690bdfb21f33a8d0097a517795a7a670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga987ebed7e970e364c0986087d7d21cd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga987ebed7e970e364c0986087d7d21cd0">REG_PWMEVTA</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga987ebed7e970e364c0986087d7d21cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWMEVTA: PWM EVENT OUTPUT CONTROL REGISTER A.  <a href="a00501.html#ga987ebed7e970e364c0986087d7d21cd0">More...</a><br /></td></tr>
-<tr class="separator:ga987ebed7e970e364c0986087d7d21cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4ae66de18b14ab166fcd140318d08697"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga4ae66de18b14ab166fcd140318d08697">REG_PWMEVTB</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga4ae66de18b14ab166fcd140318d08697"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWMEVTB: PWM EVENT OUTPUT CONTROL REGISTER B.  <a href="a00501.html#ga4ae66de18b14ab166fcd140318d08697">More...</a><br /></td></tr>
-<tr class="separator:ga4ae66de18b14ab166fcd140318d08697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf59cdce02f7847878525ace87bcc58bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaf59cdce02f7847878525ace87bcc58bd">REG_PWMEVTC</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gaf59cdce02f7847878525ace87bcc58bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWMEVTC: PWM EVENT OUTPUT CONTROL REGISTER C.  <a href="a00501.html#gaf59cdce02f7847878525ace87bcc58bd">More...</a><br /></td></tr>
-<tr class="separator:gaf59cdce02f7847878525ace87bcc58bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafccdfc12921bc78b723a3a91f8f93f37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gafccdfc12921bc78b723a3a91f8f93f37">REG_PWMEVTD</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gafccdfc12921bc78b723a3a91f8f93f37"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWMEVTD: PWM EVENT OUTPUT CONTROL REGISTER D.  <a href="a00501.html#gafccdfc12921bc78b723a3a91f8f93f37">More...</a><br /></td></tr>
-<tr class="separator:gafccdfc12921bc78b723a3a91f8f93f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf83e935cab7d759d0aff9c1d0e678dda"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaf83e935cab7d759d0aff9c1d0e678dda">REG_PWMEVTE</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gaf83e935cab7d759d0aff9c1d0e678dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWMEVTE: PWM EVENT OUTPUT CONTROL REGISTER E.  <a href="a00501.html#gaf83e935cab7d759d0aff9c1d0e678dda">More...</a><br /></td></tr>
-<tr class="separator:gaf83e935cab7d759d0aff9c1d0e678dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3add0aac78e496cf53fb28e10f4c415"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaa3add0aac78e496cf53fb28e10f4c415">REG_PWMEVTF</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gaa3add0aac78e496cf53fb28e10f4c415"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWMEVTF: PWM EVENT OUTPUT CONTROL REGISTER F.  <a href="a00501.html#gaa3add0aac78e496cf53fb28e10f4c415">More...</a><br /></td></tr>
-<tr class="separator:gaa3add0aac78e496cf53fb28e10f4c415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8be36d138f0ab4e0561102324d482053"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga8be36d138f0ab4e0561102324d482053">P33C_PGxCONL_PWM_ON</a>&#160;&#160;&#160;0x8000</td></tr>
-<tr class="memdesc:ga8be36d138f0ab4e0561102324d482053"><td class="mdescLeft">&#160;</td><td class="mdescRight">control bit in PGxCONL enabling/disabling the PWM generator  <a href="a00501.html#ga8be36d138f0ab4e0561102324d482053">More...</a><br /></td></tr>
-<tr class="separator:ga8be36d138f0ab4e0561102324d482053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64b407c23f73ee4bd18432bb1c44353f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga64b407c23f73ee4bd18432bb1c44353f">P33C_PGxCONL_HRES_EN</a>&#160;&#160;&#160;0x0080</td></tr>
-<tr class="memdesc:ga64b407c23f73ee4bd18432bb1c44353f"><td class="mdescLeft">&#160;</td><td class="mdescRight">control bit in PGxCONL enabling/disabling High Resolution Mode  <a href="a00501.html#ga64b407c23f73ee4bd18432bb1c44353f">More...</a><br /></td></tr>
-<tr class="separator:ga64b407c23f73ee4bd18432bb1c44353f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga264bbfb44cfb5a8817497be4a855a72d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga264bbfb44cfb5a8817497be4a855a72d">P33C_PGxIOCONL_OVREN_SYNC</a>&#160;&#160;&#160;0x3000</td></tr>
-<tr class="memdesc:ga264bbfb44cfb5a8817497be4a855a72d"><td class="mdescLeft">&#160;</td><td class="mdescRight">control bits in PGxIOCONL enabling/disabling the PWM output override in synchronous mode  <a href="a00501.html#ga264bbfb44cfb5a8817497be4a855a72d">More...</a><br /></td></tr>
-<tr class="separator:ga264bbfb44cfb5a8817497be4a855a72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6da12333e0040cb11590733112e80eb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga6da12333e0040cb11590733112e80eb2">P33C_PGxIOCONL_OVREN_ASYNC</a>&#160;&#160;&#160;0x2000</td></tr>
-<tr class="memdesc:ga6da12333e0040cb11590733112e80eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">control bits in PGxIOCONL enabling/disabling the PWM output override in asynchronous mode  <a href="a00501.html#ga6da12333e0040cb11590733112e80eb2">More...</a><br /></td></tr>
-<tr class="separator:ga6da12333e0040cb11590733112e80eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c6130e0cb4079bd7dca03c9de31c276"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga6c6130e0cb4079bd7dca03c9de31c276">P33C_PGxIOCONL_OVREN_ASYNC_SWAP</a>&#160;&#160;&#160;0x1000</td></tr>
-<tr class="separator:ga6c6130e0cb4079bd7dca03c9de31c276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5b5f34ce971fd53b0ac3fb194ae37b54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga5b5f34ce971fd53b0ac3fb194ae37b54">P33C_PGxIOCONH_PEN_SYNC</a>&#160;&#160;&#160;0x000C</td></tr>
-<tr class="memdesc:ga5b5f34ce971fd53b0ac3fb194ae37b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">control bits in PGxIOCONH enabling/disabling the PWM outputs in synchronous mode  <a href="a00501.html#ga5b5f34ce971fd53b0ac3fb194ae37b54">More...</a><br /></td></tr>
-<tr class="separator:ga5b5f34ce971fd53b0ac3fb194ae37b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaabf456aad04a18f9b8049b51585c9ea0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaabf456aad04a18f9b8049b51585c9ea0">P33C_PGxIOCONH_PEN_ASYNC</a>&#160;&#160;&#160;0x0008</td></tr>
-<tr class="separator:gaabf456aad04a18f9b8049b51585c9ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0abec3633648d4a4f3fc60483a0fdd68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga0abec3633648d4a4f3fc60483a0fdd68">P33C_PGxIOCONH_PEN_ASYNC_SWAP</a>&#160;&#160;&#160;0x0004</td></tr>
-<tr class="separator:ga0abec3633648d4a4f3fc60483a0fdd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf44a2ccbda6e58db8f454f71a84a68ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaf44a2ccbda6e58db8f454f71a84a68ed">P33C_PGxSTAT_UPDREQ</a>&#160;&#160;&#160;0x0008</td></tr>
-<tr class="memdesc:gaf44a2ccbda6e58db8f454f71a84a68ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control bit in PGxSTAT setting the Update Request bit.  <a href="a00501.html#gaf44a2ccbda6e58db8f454f71a84a68ed">More...</a><br /></td></tr>
-<tr class="separator:gaf44a2ccbda6e58db8f454f71a84a68ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73bd075ef917f9dda7b28fafb1ca0b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga73bd075ef917f9dda7b28fafb1ca0b0c">P33C_PGxCONH_MPERSEL</a>&#160;&#160;&#160;0x4000</td></tr>
-<tr class="memdesc:ga73bd075ef917f9dda7b28fafb1ca0b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control bit in PGxCONH seting the PERIOD register source.  <a href="a00501.html#ga73bd075ef917f9dda7b28fafb1ca0b0c">More...</a><br /></td></tr>
-<tr class="separator:ga73bd075ef917f9dda7b28fafb1ca0b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga48f3b48a3d4911bc79b1f6d114030782"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga48f3b48a3d4911bc79b1f6d114030782">P33C_PGxCONH_UPDMOD_MSTR</a>&#160;&#160;&#160;0b001</td></tr>
-<tr class="memdesc:ga48f3b48a3d4911bc79b1f6d114030782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master Immediate Update.  <a href="a00501.html#ga48f3b48a3d4911bc79b1f6d114030782">More...</a><br /></td></tr>
-<tr class="separator:ga48f3b48a3d4911bc79b1f6d114030782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2b64c949f4b65f3ea7dfbdcdaf2d81ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga2b64c949f4b65f3ea7dfbdcdaf2d81ca">P33C_PGxCONH_UPDMOD_SLV</a>&#160;&#160;&#160;0b011</td></tr>
-<tr class="memdesc:ga2b64c949f4b65f3ea7dfbdcdaf2d81ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slaved immediate Update.  <a href="a00501.html#ga2b64c949f4b65f3ea7dfbdcdaf2d81ca">More...</a><br /></td></tr>
-<tr class="separator:ga2b64c949f4b65f3ea7dfbdcdaf2d81ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaca03327bf8f3b21d0ebba3c374035ecb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaca03327bf8f3b21d0ebba3c374035ecb">REG_PGxCONL</a>&#160;&#160;&#160;0b0000000010001000</td></tr>
-<tr class="memdesc:gaca03327bf8f3b21d0ebba3c374035ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxCONL: PWM GENERATOR x CONTROL REGISTER LOW.  <a href="a00501.html#gaca03327bf8f3b21d0ebba3c374035ecb">More...</a><br /></td></tr>
-<tr class="separator:gaca03327bf8f3b21d0ebba3c374035ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f97fd67118f58c66daba62501ab3b12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga0f97fd67118f58c66daba62501ab3b12">REG_PGxCONH</a>&#160;&#160;&#160;0b0000000100000000</td></tr>
-<tr class="memdesc:ga0f97fd67118f58c66daba62501ab3b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxCONH: PWM GENERATOR x CONTROL REGISTER LOW.  <a href="a00501.html#ga0f97fd67118f58c66daba62501ab3b12">More...</a><br /></td></tr>
-<tr class="separator:ga0f97fd67118f58c66daba62501ab3b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga773a7e8ae90a6288ac7da4618ff9e88b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga773a7e8ae90a6288ac7da4618ff9e88b">REG_PGxIOCONL</a>&#160;&#160;&#160;0b0011000000000000</td></tr>
-<tr class="memdesc:ga773a7e8ae90a6288ac7da4618ff9e88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxIOCONL: PWM GENERATOR x I/O CONTROL REGISTER LOW.  <a href="a00501.html#ga773a7e8ae90a6288ac7da4618ff9e88b">More...</a><br /></td></tr>
-<tr class="separator:ga773a7e8ae90a6288ac7da4618ff9e88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1908a97f9d00772635881edbf84e3a3c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga1908a97f9d00772635881edbf84e3a3c">REG_PGxIOCONH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga1908a97f9d00772635881edbf84e3a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxIOCONH: PWM GENERATOR x I/O CONTROL REGISTER LOW.  <a href="a00501.html#ga1908a97f9d00772635881edbf84e3a3c">More...</a><br /></td></tr>
-<tr class="separator:ga1908a97f9d00772635881edbf84e3a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebf10ac2add75d7510bd83a46cf21dce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gaebf10ac2add75d7510bd83a46cf21dce">REG_PGxEVTL</a>&#160;&#160;&#160;0b0000000100011001</td></tr>
-<tr class="memdesc:gaebf10ac2add75d7510bd83a46cf21dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxEVTL: PWM GENERATOR x EVENT REGISTER LOW.  <a href="a00501.html#gaebf10ac2add75d7510bd83a46cf21dce">More...</a><br /></td></tr>
-<tr class="separator:gaebf10ac2add75d7510bd83a46cf21dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab36a3d14811793fb8c4934ebfe30eda7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gab36a3d14811793fb8c4934ebfe30eda7">REG_PGxEVTH</a>&#160;&#160;&#160;0b0000000101000000</td></tr>
-<tr class="memdesc:gab36a3d14811793fb8c4934ebfe30eda7"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxEVTH: PWM GENERATOR x EVENT REGISTER LOW.  <a href="a00501.html#gab36a3d14811793fb8c4934ebfe30eda7">More...</a><br /></td></tr>
-<tr class="separator:gab36a3d14811793fb8c4934ebfe30eda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4884866656992267621715d83b07eeaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga4884866656992267621715d83b07eeaa">REG_PGxCLPCIL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga4884866656992267621715d83b07eeaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxCLPCIL: PWM GENERATOR CURRENT LIMIT PCI REGISTER LOW.  <a href="a00501.html#ga4884866656992267621715d83b07eeaa">More...</a><br /></td></tr>
-<tr class="separator:ga4884866656992267621715d83b07eeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafdf1c8a4adff0fda91a310118313011c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gafdf1c8a4adff0fda91a310118313011c">REG_PGxCLPCIH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gafdf1c8a4adff0fda91a310118313011c"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxCLPCIH: PWM GENERATOR CURRENT LIMIT PCI REGISTER HIGH.  <a href="a00501.html#gafdf1c8a4adff0fda91a310118313011c">More...</a><br /></td></tr>
-<tr class="separator:gafdf1c8a4adff0fda91a310118313011c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82f53564541df57f2df918d92084a21f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga82f53564541df57f2df918d92084a21f">REG_PGxFPCIL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga82f53564541df57f2df918d92084a21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxFPCIL: PWM GENERATOR FAULT PCI REGISTER LOW.  <a href="a00501.html#ga82f53564541df57f2df918d92084a21f">More...</a><br /></td></tr>
-<tr class="separator:ga82f53564541df57f2df918d92084a21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac8d23ab57bd751549b9b48848222c7a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gac8d23ab57bd751549b9b48848222c7a6">REG_PGxFPCIH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gac8d23ab57bd751549b9b48848222c7a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxFPCIH: PWM GENERATOR FAULT PCI REGISTER HIGH.  <a href="a00501.html#gac8d23ab57bd751549b9b48848222c7a6">More...</a><br /></td></tr>
-<tr class="separator:gac8d23ab57bd751549b9b48848222c7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga311f27853b5f6f9ef7920a030e0c178f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga311f27853b5f6f9ef7920a030e0c178f">REG_PGxFFPCIL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga311f27853b5f6f9ef7920a030e0c178f"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxFFPCIL: PWM GENERATOR FEED FORWARD PCI REGISTER LOW.  <a href="a00501.html#ga311f27853b5f6f9ef7920a030e0c178f">More...</a><br /></td></tr>
-<tr class="separator:ga311f27853b5f6f9ef7920a030e0c178f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga61e396e2bbcfa4231b5348d85fd5f798"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga61e396e2bbcfa4231b5348d85fd5f798">REG_PGxFFPCIH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga61e396e2bbcfa4231b5348d85fd5f798"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxFFPCIH: PWM GENERATOR FEED FORWARD PCI REGISTER LOW.  <a href="a00501.html#ga61e396e2bbcfa4231b5348d85fd5f798">More...</a><br /></td></tr>
-<tr class="separator:ga61e396e2bbcfa4231b5348d85fd5f798"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23da692272bf30c16381ddc0eed5772d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga23da692272bf30c16381ddc0eed5772d">REG_PGxSPCIL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga23da692272bf30c16381ddc0eed5772d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxSPCIL: PWM GENERATOR SOFTWARE PCI REGISTER LOW.  <a href="a00501.html#ga23da692272bf30c16381ddc0eed5772d">More...</a><br /></td></tr>
-<tr class="separator:ga23da692272bf30c16381ddc0eed5772d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49035d97c7e3c40fac295b55d6fa4bd4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga49035d97c7e3c40fac295b55d6fa4bd4">REG_PGxSPCIH</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:ga49035d97c7e3c40fac295b55d6fa4bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxSPCIH: PWM GENERATOR SOFTWARE PCI REGISTER LOW.  <a href="a00501.html#ga49035d97c7e3c40fac295b55d6fa4bd4">More...</a><br /></td></tr>
-<tr class="separator:ga49035d97c7e3c40fac295b55d6fa4bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab46aa5c2defa45795e640e87244dd0a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gab46aa5c2defa45795e640e87244dd0a9">REG_PGxLEBH</a>&#160;&#160;&#160;0b0000000000001000</td></tr>
-<tr class="memdesc:gab46aa5c2defa45795e640e87244dd0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxLEBH: PWM GENERATOR x LEADING-EDGE BLANKING REGISTER HIGH.  <a href="a00501.html#gab46aa5c2defa45795e640e87244dd0a9">More...</a><br /></td></tr>
-<tr class="separator:gab46aa5c2defa45795e640e87244dd0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5e5e56ba2ab61c749ccf6c90f4fc57f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gac5e5e56ba2ab61c749ccf6c90f4fc57f">REG_PGxLEBL</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gac5e5e56ba2ab61c749ccf6c90f4fc57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxLEBL: PWM GENERATOR x LEADING-EDGE BLANKING REGISTER LOW.  <a href="a00501.html#gac5e5e56ba2ab61c749ccf6c90f4fc57f">More...</a><br /></td></tr>
-<tr class="separator:gac5e5e56ba2ab61c749ccf6c90f4fc57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd715913ab2be1e5e17d44a29d60b805"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gadd715913ab2be1e5e17d44a29d60b805">REG_PGxDCA</a>&#160;&#160;&#160;0b0000000000000000</td></tr>
-<tr class="memdesc:gadd715913ab2be1e5e17d44a29d60b805"><td class="mdescLeft">&#160;</td><td class="mdescRight">PGxDCA: PWM GENERATOR x DUTY CYCLE ADJUSTMENT REGISTER.  <a href="a00501.html#gadd715913ab2be1e5e17d44a29d60b805">More...</a><br /></td></tr>
-<tr class="separator:gadd715913ab2be1e5e17d44a29d60b805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga6d12fd9e2f1d4f01ec6db21454693863"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga6d12fd9e2f1d4f01ec6db21454693863">buckPWM_ModuleInitialize</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:ga6d12fd9e2f1d4f01ec6db21454693863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the buck PWM module by resetting its registers to default.  <a href="a00501.html#ga6d12fd9e2f1d4f01ec6db21454693863">More...</a><br /></td></tr>
+<tr class="separator:ga6d12fd9e2f1d4f01ec6db21454693863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45a54def97cc67eb8d36e22a3867d95f"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga45a54def97cc67eb8d36e22a3867d95f">buckPWM_ChannelInitialize</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:ga45a54def97cc67eb8d36e22a3867d95f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the output pins for the PWM output and the default buck PWM settings.  <a href="a00501.html#ga45a54def97cc67eb8d36e22a3867d95f">More...</a><br /></td></tr>
+<tr class="separator:ga45a54def97cc67eb8d36e22a3867d95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac63073d04bc35c0cce5df47ea0d33165"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gac63073d04bc35c0cce5df47ea0d33165">buckPWM_Start</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:gac63073d04bc35c0cce5df47ea0d33165"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function enables the buck PWM operation.  <a href="a00501.html#gac63073d04bc35c0cce5df47ea0d33165">More...</a><br /></td></tr>
+<tr class="separator:gac63073d04bc35c0cce5df47ea0d33165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab2905ddac9f94bf8bfa203444c0d3691"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gab2905ddac9f94bf8bfa203444c0d3691">buckPWM_Stop</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:gab2905ddac9f94bf8bfa203444c0d3691"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function stops the buck PWM output.  <a href="a00501.html#gab2905ddac9f94bf8bfa203444c0d3691">More...</a><br /></td></tr>
+<tr class="separator:gab2905ddac9f94bf8bfa203444c0d3691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae63dbb1465ca458b8b7f6733a30f7d0b"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gae63dbb1465ca458b8b7f6733a30f7d0b">buckPWM_Suspend</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:gae63dbb1465ca458b8b7f6733a30f7d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function disables the PWM generator IOs.  <a href="a00501.html#gae63dbb1465ca458b8b7f6733a30f7d0b">More...</a><br /></td></tr>
+<tr class="separator:gae63dbb1465ca458b8b7f6733a30f7d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d46a45c20d84e1a7c6cfd5743b68c47"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga2d46a45c20d84e1a7c6cfd5743b68c47">buckPWM_Resume</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:ga2d46a45c20d84e1a7c6cfd5743b68c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function resumes the buck PWM operation.  <a href="a00501.html#ga2d46a45c20d84e1a7c6cfd5743b68c47">More...</a><br /></td></tr>
+<tr class="separator:ga2d46a45c20d84e1a7c6cfd5743b68c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44f537d9ad5dcb0e744480802cfbf170"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga44f537d9ad5dcb0e744480802cfbf170">buckADC_ModuleInitialize</a> (void)</td></tr>
+<tr class="memdesc:ga44f537d9ad5dcb0e744480802cfbf170"><td class="mdescLeft">&#160;</td><td class="mdescRight">This fucntion initializes the buck by resetting all its registers to default.  <a href="a00501.html#ga44f537d9ad5dcb0e744480802cfbf170">More...</a><br /></td></tr>
+<tr class="separator:ga44f537d9ad5dcb0e744480802cfbf170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2bfd6c3ccd9ec11b8e91322ea9354d2"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gac2bfd6c3ccd9ec11b8e91322ea9354d2">buckADC_ChannelInitialize</a> (volatile struct <a class="el" href="a01544.html">BUCK_ADC_INPUT_SETTINGS_s</a> *adcInstance)</td></tr>
+<tr class="memdesc:gac2bfd6c3ccd9ec11b8e91322ea9354d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the settings for the ADC channel.  <a href="a00501.html#gac2bfd6c3ccd9ec11b8e91322ea9354d2">More...</a><br /></td></tr>
+<tr class="separator:gac2bfd6c3ccd9ec11b8e91322ea9354d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab089e35bcd5d68072aa53298ee276959"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gab089e35bcd5d68072aa53298ee276959">buckADC_Start</a> (void)</td></tr>
+<tr class="memdesc:gab089e35bcd5d68072aa53298ee276959"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function enables the ADC module and starts the ADC cores analog inputs for the required input signals.  <a href="a00501.html#gab089e35bcd5d68072aa53298ee276959">More...</a><br /></td></tr>
+<tr class="separator:gab089e35bcd5d68072aa53298ee276959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8cb8e5226f7c1d109cd0dc42e45be9f"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gad8cb8e5226f7c1d109cd0dc42e45be9f">buckGPIO_Set</a> (volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *buckGPIOInstance)</td></tr>
+<tr class="memdesc:gad8cb8e5226f7c1d109cd0dc42e45be9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function sets the selected general purpose input/ouput pins.  <a href="a00501.html#gad8cb8e5226f7c1d109cd0dc42e45be9f">More...</a><br /></td></tr>
+<tr class="separator:gad8cb8e5226f7c1d109cd0dc42e45be9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f1d554e08d756b8677b572216908a3a"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga7f1d554e08d756b8677b572216908a3a">buckGPIO_Clear</a> (volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *buckGPIOInstance)</td></tr>
+<tr class="memdesc:ga7f1d554e08d756b8677b572216908a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function clears the selected general purpose input/output pin.  <a href="a00501.html#ga7f1d554e08d756b8677b572216908a3a">More...</a><br /></td></tr>
+<tr class="separator:ga7f1d554e08d756b8677b572216908a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e2253c136f05033e774d09032b283a1"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga8e2253c136f05033e774d09032b283a1">buckGPIO_GetPinState</a> (volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *buckGPIOInstance)</td></tr>
+<tr class="memdesc:ga8e2253c136f05033e774d09032b283a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function gets the state of the selected pin.  <a href="a00501.html#ga8e2253c136f05033e774d09032b283a1">More...</a><br /></td></tr>
+<tr class="separator:ga8e2253c136f05033e774d09032b283a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7e5924475733c189b2318844ae01844"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#gac7e5924475733c189b2318844ae01844">buckGPIO_Initialize</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
+<tr class="memdesc:gac7e5924475733c189b2318844ae01844"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function initializes the buck input pins.  <a href="a00501.html#gac7e5924475733c189b2318844ae01844">More...</a><br /></td></tr>
+<tr class="separator:gac7e5924475733c189b2318844ae01844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d3f91c0e40884874e7df3a67fff23f3"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00501.html#ga3d3f91c0e40884874e7df3a67fff23f3">buckGPIO_PrivateInitialize</a> (volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *buckGPIOInstance)</td></tr>
+<tr class="memdesc:ga3d3f91c0e40884874e7df3a67fff23f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function sets the pin as input or output.  <a href="a00501.html#ga3d3f91c0e40884874e7df3a67fff23f3">More...</a><br /></td></tr>
+<tr class="separator:ga3d3f91c0e40884874e7df3a67fff23f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga5cd06b0701dd972bea484aa284b538fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5cd06b0701dd972bea484aa284b538fb">&#9670;&nbsp;</a></span>ADC_CORE0_MASK_INDEX</h2>
+<p>Functions of the second library layer. </p>
+<p>This is the detailed description of public functions of the peripheral configuration module of the buck converter device driver library. </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gac2bfd6c3ccd9ec11b8e91322ea9354d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac2bfd6c3ccd9ec11b8e91322ea9354d2">&#9670;&nbsp;</a></span>buckADC_ChannelInitialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_CORE0_MASK_INDEX&#160;&#160;&#160;0b0000000000000001</td>
+          <td class="memname">uint16_t buckADC_ChannelInitialize </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01544.html">BUCK_ADC_INPUT_SETTINGS_s</a> *&#160;</td>
+          <td class="paramname"><em>adcInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This define masks core 0 of ADC. </p>
+<p>This function initializes the settings for the ADC channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">adcInstance</td><td>Pointer to an ADC Input Configuration data object of type struct <a class="el" href="a01544.html" title="ADC input channel configuration.">BUCK_ADC_INPUT_SETTINGS_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function initializes the ADC input registers based on the selected ADC channel. This function sets the input channel trigger source, input mode, and the ADC core connected to the selected channel. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00065">65</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00528">528</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_gac2bfd6c3ccd9ec11b8e91322ea9354d2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga22888dc4e47b6c12697bb0d833a104d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga22888dc4e47b6c12697bb0d833a104d2">&#9670;&nbsp;</a></span>ADC_CORE1_MASK_INDEX</h2>
+<a id="ga44f537d9ad5dcb0e744480802cfbf170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44f537d9ad5dcb0e744480802cfbf170">&#9670;&nbsp;</a></span>buckADC_ModuleInitialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_CORE1_MASK_INDEX&#160;&#160;&#160;0b0000000000000010</td>
+          <td class="memname">uint16_t buckADC_ModuleInitialize </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This define masks core 1 of ADC. </p>
+<p>This fucntion initializes the buck by resetting all its registers to default. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>The ADC initialization covers basic configurations like data format, clock sources and dividers as well as specific configurations for ADC cores. These settings are general, basic settings and not related to specific analog inputs. The standard configuration set here sets up the ADC module and ADC cores for maximum performance. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00071">71</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00429">429</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_ga44f537d9ad5dcb0e744480802cfbf170_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga0d134fed01267e7e24128c763c0bcbf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0d134fed01267e7e24128c763c0bcbf4">&#9670;&nbsp;</a></span>ADC_CORE2_MASK_INDEX</h2>
+<a id="gab089e35bcd5d68072aa53298ee276959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab089e35bcd5d68072aa53298ee276959">&#9670;&nbsp;</a></span>buckADC_Start()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_CORE2_MASK_INDEX&#160;&#160;&#160;0b0000000000000100</td>
+          <td class="memname">uint16_t buckADC_Start </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This define masks core 2 of ADC. </p>
+<p>This function enables the ADC module and starts the ADC cores analog inputs for the required input signals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function enables the ADC module, powers-up and enables the ADC cores used and waits until ADC cores are ready. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00077">77</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00622">622</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_gab089e35bcd5d68072aa53298ee276959_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga20a79307af387c2b58e0a26eba340201"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga20a79307af387c2b58e0a26eba340201">&#9670;&nbsp;</a></span>ADC_CORE3_MASK_INDEX</h2>
+<a id="ga7f1d554e08d756b8677b572216908a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f1d554e08d756b8677b572216908a3a">&#9670;&nbsp;</a></span>buckGPIO_Clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_CORE3_MASK_INDEX&#160;&#160;&#160;0b0000000000001000</td>
+          <td class="memname">uint16_t buckGPIO_Clear </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *&#160;</td>
+          <td class="paramname"><em>buckGPIOInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This define masks core 3 of ADC. </p>
+<p>This function clears the selected general purpose input/output pin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckGPIOInstance</td><td>Pointer to a GPIO instance data object of type struct <a class="el" href="a01552.html" title="GPIO instance of the converter control GPIO.">BUCK_GPIO_INSTANCE_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function captures the pin that the use desired to be put in inactive state. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00083">83</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00688">688</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga7f1d554e08d756b8677b572216908a3a_cgraph.svg" width="379" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_ga7f1d554e08d756b8677b572216908a3a_icgraph.svg" width="100%" height="453"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga2f18a4ac55243c434199e4c03a1916d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f18a4ac55243c434199e4c03a1916d0">&#9670;&nbsp;</a></span>ADC_CORE_MASK</h2>
+<a id="ga8e2253c136f05033e774d09032b283a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8e2253c136f05033e774d09032b283a1">&#9670;&nbsp;</a></span>buckGPIO_GetPinState()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_CORE_MASK&#160;&#160;&#160;0b0000000010001111</td>
+          <td class="memname">bool buckGPIO_GetPinState </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *&#160;</td>
+          <td class="paramname"><em>buckGPIOInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This define masks all cores of ADC. </p>
+<p>This function gets the state of the selected pin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckGPIOInstance</td><td>Pointer to a GPIO instance data object of type struct <a class="el" href="a01552.html" title="GPIO instance of the converter control GPIO.">BUCK_GPIO_INSTANCE_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function captures the selected pin and read its state. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00059">59</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00723">723</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga8e2253c136f05033e774d09032b283a1_cgraph.svg" width="420" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_ga8e2253c136f05033e774d09032b283a1_icgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga1b53aa998d151a03b54feaccfa0e6529"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1b53aa998d151a03b54feaccfa0e6529">&#9670;&nbsp;</a></span>ADC_POWERUP_TIMEOUT</h2>
+<a id="gac7e5924475733c189b2318844ae01844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7e5924475733c189b2318844ae01844">&#9670;&nbsp;</a></span>buckGPIO_Initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_POWERUP_TIMEOUT&#160;&#160;&#160;5000</td>
+          <td class="memname">uint16_t buckGPIO_Initialize </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Digital-To-Analog Converter and High Speed Comparator Special Function Register Set. </p>
+<p>This function initializes the buck input pins. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function initializes the ENABLE input pin and POWER GOOD output pin using the buck GPIO_PrivateInitialize (URL = <a class="el" href="a00501.html#ga3d3f91c0e40884874e7df3a67fff23f3">buckGPIO_PrivateInitialize</a>). </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00051">51</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00754">754</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gac7e5924475733c189b2318844ae01844_cgraph.svg" width="619" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_gac7e5924475733c189b2318844ae01844_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga759d38bf0d8fb74fd456d3c9aa1b0bae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga759d38bf0d8fb74fd456d3c9aa1b0bae">&#9670;&nbsp;</a></span>ADC_SHRCORE_MASK_INDEX</h2>
+<a id="ga3d3f91c0e40884874e7df3a67fff23f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d3f91c0e40884874e7df3a67fff23f3">&#9670;&nbsp;</a></span>buckGPIO_PrivateInitialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADC_SHRCORE_MASK_INDEX&#160;&#160;&#160;0b0000000010000000</td>
+          <td class="memname">volatile uint16_t buckGPIO_PrivateInitialize </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *&#160;</td>
+          <td class="paramname"><em>buckGPIOInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This define masks shared core of ADC. </p>
+<p>This function sets the pin as input or output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckGPIOInstance</td><td>Pointer to a GPIO instance data object of type struct <a class="el" href="a01552.html" title="GPIO instance of the converter control GPIO.">BUCK_GPIO_INSTANCE_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function captures the user selected pin then set the pin to inactive and set it as digital input or output pin. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00284_source.html#l00089">89</a> of file <a class="el" href="a00284_source.html">dev_buck_ptemp_adc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00786">786</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga3d3f91c0e40884874e7df3a67fff23f3_cgraph.svg" width="435" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_ga3d3f91c0e40884874e7df3a67fff23f3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga73bd075ef917f9dda7b28fafb1ca0b0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga73bd075ef917f9dda7b28fafb1ca0b0c">&#9670;&nbsp;</a></span>P33C_PGxCONH_MPERSEL</h2>
+<a id="gad8cb8e5226f7c1d109cd0dc42e45be9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad8cb8e5226f7c1d109cd0dc42e45be9f">&#9670;&nbsp;</a></span>buckGPIO_Set()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxCONH_MPERSEL&#160;&#160;&#160;0x4000</td>
+          <td class="memname">uint16_t buckGPIO_Set </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a> *&#160;</td>
+          <td class="paramname"><em>buckGPIOInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Control bit in PGxCONH seting the PERIOD register source. </p>
+<p>This function sets the selected general purpose input/ouput pins. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckGPIOInstance</td><td>Pointer to a GPIO instance data object of type struct <a class="el" href="a01552.html" title="GPIO instance of the converter control GPIO.">BUCK_GPIO_INSTANCE_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function captures the user selected pin to be activated through LAT register. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00476">476</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00653">653</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gad8cb8e5226f7c1d109cd0dc42e45be9f_cgraph.svg" width="370" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gad8cb8e5226f7c1d109cd0dc42e45be9f_icgraph.svg" width="351" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
-<a id="ga48f3b48a3d4911bc79b1f6d114030782"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga48f3b48a3d4911bc79b1f6d114030782">&#9670;&nbsp;</a></span>P33C_PGxCONH_UPDMOD_MSTR</h2>
+<a id="ga45a54def97cc67eb8d36e22a3867d95f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45a54def97cc67eb8d36e22a3867d95f">&#9670;&nbsp;</a></span>buckPWM_ChannelInitialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxCONH_UPDMOD_MSTR&#160;&#160;&#160;0b001</td>
+          <td class="memname">uint16_t buckPWM_ChannelInitialize </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Master Immediate Update. </p>
+<p>This function initializes the output pins for the PWM output and the default buck PWM settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function initializes the buck PWM channel with default values for maximum performance.</p>
+<p>Default configuration:</p><ul>
+<li>selected PWM outputs are enabled</li>
+<li>PWM timing settings are loaded (i.e., duty cycle, period, dead-times, blanking)</li>
+<li>PWM synchronization is established </li>
+</ul>
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00481">481</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00110">110</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga45a54def97cc67eb8d36e22a3867d95f_cgraph.svg" width="454" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_ga45a54def97cc67eb8d36e22a3867d95f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga2b64c949f4b65f3ea7dfbdcdaf2d81ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2b64c949f4b65f3ea7dfbdcdaf2d81ca">&#9670;&nbsp;</a></span>P33C_PGxCONH_UPDMOD_SLV</h2>
+<a id="ga6d12fd9e2f1d4f01ec6db21454693863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d12fd9e2f1d4f01ec6db21454693863">&#9670;&nbsp;</a></span>buckPWM_ModuleInitialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxCONH_UPDMOD_SLV&#160;&#160;&#160;0b011</td>
+          <td class="memname">uint16_t buckPWM_ModuleInitialize </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Slaved immediate Update. </p>
+<p>Initializes the buck PWM module by resetting its registers to default. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function initializes the buck PWM module base registers with default values for maximum performance.</p>
+<p>Default configuration:</p><ul>
+<li>all PWM peripheral power is enabled</li>
+<li>all PWM generators are disabled</li>
+<li>default PWM Module configurations are written in buck PWM module base registers </li>
+</ul>
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00486">486</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00054">54</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga6d12fd9e2f1d4f01ec6db21454693863_cgraph.svg" width="440" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_ga6d12fd9e2f1d4f01ec6db21454693863_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga64b407c23f73ee4bd18432bb1c44353f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga64b407c23f73ee4bd18432bb1c44353f">&#9670;&nbsp;</a></span>P33C_PGxCONL_HRES_EN</h2>
+<a id="ga2d46a45c20d84e1a7c6cfd5743b68c47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d46a45c20d84e1a7c6cfd5743b68c47">&#9670;&nbsp;</a></span>buckPWM_Resume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxCONL_HRES_EN&#160;&#160;&#160;0x0080</td>
+          <td class="memname">uint16_t buckPWM_Resume </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>control bit in PGxCONL enabling/disabling High Resolution Mode </p>
+<p>This function resumes the buck PWM operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>THis function updates the PWM timing bit and the PWM output pins are enabled. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00444">444</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00369">369</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga2d46a45c20d84e1a7c6cfd5743b68c47_cgraph.svg" width="408" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_ga2d46a45c20d84e1a7c6cfd5743b68c47_icgraph.svg" width="340" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
-<a id="ga8be36d138f0ab4e0561102324d482053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8be36d138f0ab4e0561102324d482053">&#9670;&nbsp;</a></span>P33C_PGxCONL_PWM_ON</h2>
+<a id="gac63073d04bc35c0cce5df47ea0d33165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac63073d04bc35c0cce5df47ea0d33165">&#9670;&nbsp;</a></span>buckPWM_Start()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxCONL_PWM_ON&#160;&#160;&#160;0x8000</td>
+          <td class="memname">uint16_t buckPWM_Start </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>control bit in PGxCONL enabling/disabling the PWM generator </p>
+<p>This function enables the buck PWM operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function starts the operation of the buck PWM by enabling the PWM generator and its output pins. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00439">439</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00212">212</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gac63073d04bc35c0cce5df47ea0d33165_cgraph.svg" width="388" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00501_gac63073d04bc35c0cce5df47ea0d33165_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
-<a id="gaabf456aad04a18f9b8049b51585c9ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaabf456aad04a18f9b8049b51585c9ea0">&#9670;&nbsp;</a></span>P33C_PGxIOCONH_PEN_ASYNC</h2>
+<a id="gab2905ddac9f94bf8bfa203444c0d3691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab2905ddac9f94bf8bfa203444c0d3691">&#9670;&nbsp;</a></span>buckPWM_Stop()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxIOCONH_PEN_ASYNC&#160;&#160;&#160;0x0008</td>
+          <td class="memname">uint16_t buckPWM_Stop </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00465">465</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
+<p>This function stops the buck PWM output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function shuts down the PWM output by disabling all PWM channels of the recent buck converter object, overriding the output pins and resetting the buck PWM duty cycle to its minimum duty ratio.</p>
+<p>If the Power Good output is enabled, this output pin will also be reset. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00281">281</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gab2905ddac9f94bf8bfa203444c0d3691_cgraph.svg" width="636" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gab2905ddac9f94bf8bfa203444c0d3691_icgraph.svg" width="540" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
-<a id="ga0abec3633648d4a4f3fc60483a0fdd68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0abec3633648d4a4f3fc60483a0fdd68">&#9670;&nbsp;</a></span>P33C_PGxIOCONH_PEN_ASYNC_SWAP</h2>
+<a id="gae63dbb1465ca458b8b7f6733a30f7d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae63dbb1465ca458b8b7f6733a30f7d0b">&#9670;&nbsp;</a></span>buckPWM_Suspend()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define P33C_PGxIOCONH_PEN_ASYNC_SWAP&#160;&#160;&#160;0x0004</td>
+          <td class="memname">uint16_t buckPWM_Suspend </td>
+          <td>(</td>
+          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
+          <td class="paramname"><em>buckInstance</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00466">466</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga5b5f34ce971fd53b0ac3fb194ae37b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5b5f34ce971fd53b0ac3fb194ae37b54">&#9670;&nbsp;</a></span>P33C_PGxIOCONH_PEN_SYNC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define P33C_PGxIOCONH_PEN_SYNC&#160;&#160;&#160;0x000C</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>control bits in PGxIOCONH enabling/disabling the PWM outputs in synchronous mode </p>
-<p>control bits in PGxIOCONH enabling/disabling the PWM outputs in asynchronous mode </p>
-
-</div>
-</div>
-<a id="ga6da12333e0040cb11590733112e80eb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6da12333e0040cb11590733112e80eb2">&#9670;&nbsp;</a></span>P33C_PGxIOCONL_OVREN_ASYNC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define P33C_PGxIOCONL_OVREN_ASYNC&#160;&#160;&#160;0x2000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>control bits in PGxIOCONL enabling/disabling the PWM output override in asynchronous mode </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00454">454</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga6c6130e0cb4079bd7dca03c9de31c276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6c6130e0cb4079bd7dca03c9de31c276">&#9670;&nbsp;</a></span>P33C_PGxIOCONL_OVREN_ASYNC_SWAP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define P33C_PGxIOCONL_OVREN_ASYNC_SWAP&#160;&#160;&#160;0x1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00455">455</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga264bbfb44cfb5a8817497be4a855a72d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga264bbfb44cfb5a8817497be4a855a72d">&#9670;&nbsp;</a></span>P33C_PGxIOCONL_OVREN_SYNC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define P33C_PGxIOCONL_OVREN_SYNC&#160;&#160;&#160;0x3000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>control bits in PGxIOCONL enabling/disabling the PWM output override in synchronous mode </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00449">449</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gaf44a2ccbda6e58db8f454f71a84a68ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf44a2ccbda6e58db8f454f71a84a68ed">&#9670;&nbsp;</a></span>P33C_PGxSTAT_UPDREQ</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define P33C_PGxSTAT_UPDREQ&#160;&#160;&#160;0x0008</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Control bit in PGxSTAT setting the Update Request bit. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00471">471</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga5f93a9d03d5f53c6f76be0e80dab06e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f93a9d03d5f53c6f76be0e80dab06e8">&#9670;&nbsp;</a></span>REG_CMBTRIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_CMBTRIGH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>CMBTRIGH: COMBINATIONAL TRIGGER REGISTER HIGH. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00130">130</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga966a169f22dd7e325d189cab51a74b1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga966a169f22dd7e325d189cab51a74b1f">&#9670;&nbsp;</a></span>REG_CMBTRIGL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_CMBTRIGL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>CMBTRIGL: COMBINATIONAL TRIGGER REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00105">105</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gaa6e98055bc0d35732906fb5b0785b30a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa6e98055bc0d35732906fb5b0785b30a">&#9670;&nbsp;</a></span>REG_DACxCONH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_DACxCONH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>DACxCONH: DACx CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00290_source.html#l00098">98</a> of file <a class="el" href="a00290_source.html">dev_buck_ptemp_dac.h</a>.</p>
-
-</div>
-</div>
-<a id="ga4040cf3dc25dad9e41a1da945b07d296"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4040cf3dc25dad9e41a1da945b07d296">&#9670;&nbsp;</a></span>REG_DACxCONL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_DACxCONL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>DACxCONL: DACx CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00290_source.html#l00072">72</a> of file <a class="el" href="a00290_source.html">dev_buck_ptemp_dac.h</a>.</p>
-
-</div>
-</div>
-<a id="gac90eb36b08b0a043073a9c0a48010cd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac90eb36b08b0a043073a9c0a48010cd7">&#9670;&nbsp;</a></span>REG_LOGCONA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_LOGCONA&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LOGCONA: COMBINATORIAL PWM LOGIC CONTROL REGISTER A. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00155">155</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga26be7973bcedb9ceeb3ffd18ae3a32c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26be7973bcedb9ceeb3ffd18ae3a32c4">&#9670;&nbsp;</a></span>REG_LOGCONB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_LOGCONB&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LOGCONB: COMBINATORIAL PWM LOGIC CONTROL REGISTER B. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00180">180</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga4c70cfa785bdb39ee738d69d15968a72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4c70cfa785bdb39ee738d69d15968a72">&#9670;&nbsp;</a></span>REG_LOGCONC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_LOGCONC&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LOGCONC: COMBINATORIAL PWM LOGIC CONTROL REGISTER C. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00205">205</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga85c8082a04495b4730139dc98ade1b40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga85c8082a04495b4730139dc98ade1b40">&#9670;&nbsp;</a></span>REG_LOGCOND</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_LOGCOND&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LOGCOND: COMBINATORIAL PWM LOGIC CONTROL REGISTER D. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00230">230</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gae0d82fd8e3346bbf8cce473e51d68c37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0d82fd8e3346bbf8cce473e51d68c37">&#9670;&nbsp;</a></span>REG_LOGCONE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_LOGCONE&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LOGCONE: COMBINATORIAL PWM LOGIC CONTROL REGISTER E. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00255">255</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga690bdfb21f33a8d0097a517795a7a670"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga690bdfb21f33a8d0097a517795a7a670">&#9670;&nbsp;</a></span>REG_LOGCONF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_LOGCONF&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LOGCONF: COMBINATORIAL PWM LOGIC CONTROL REGISTER F. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00280">280</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga03939cc1c50b0907dbc0a96b5560b86d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03939cc1c50b0907dbc0a96b5560b86d">&#9670;&nbsp;</a></span>REG_PCLKCON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PCLKCON&#160;&#160;&#160;0b0000000000000011</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PCLKCON: PWM CLOCK CONTROL REGISTER. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00080">80</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gafdf1c8a4adff0fda91a310118313011c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafdf1c8a4adff0fda91a310118313011c">&#9670;&nbsp;</a></span>REG_PGxCLPCIH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxCLPCIH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxCLPCIH: PWM GENERATOR CURRENT LIMIT PCI REGISTER HIGH. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00691">691</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga4884866656992267621715d83b07eeaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4884866656992267621715d83b07eeaa">&#9670;&nbsp;</a></span>REG_PGxCLPCIL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxCLPCIL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxCLPCIL: PWM GENERATOR CURRENT LIMIT PCI REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00665">665</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga0f97fd67118f58c66daba62501ab3b12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0f97fd67118f58c66daba62501ab3b12">&#9670;&nbsp;</a></span>REG_PGxCONH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxCONH&#160;&#160;&#160;0b0000000100000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxCONH: PWM GENERATOR x CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00539">539</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gaca03327bf8f3b21d0ebba3c374035ecb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca03327bf8f3b21d0ebba3c374035ecb">&#9670;&nbsp;</a></span>REG_PGxCONL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxCONL&#160;&#160;&#160;0b0000000010001000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxCONL: PWM GENERATOR x CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00514">514</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gadd715913ab2be1e5e17d44a29d60b805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadd715913ab2be1e5e17d44a29d60b805">&#9670;&nbsp;</a></span>REG_PGxDCA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxDCA&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxDCA: PWM GENERATOR x DUTY CYCLE ADJUSTMENT REGISTER. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00916">916</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gab36a3d14811793fb8c4934ebfe30eda7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab36a3d14811793fb8c4934ebfe30eda7">&#9670;&nbsp;</a></span>REG_PGxEVTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxEVTH&#160;&#160;&#160;0b0000000101000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxEVTH: PWM GENERATOR x EVENT REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00639">639</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gaebf10ac2add75d7510bd83a46cf21dce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaebf10ac2add75d7510bd83a46cf21dce">&#9670;&nbsp;</a></span>REG_PGxEVTL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxEVTL&#160;&#160;&#160;0b0000000100011001</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxEVTL: PWM GENERATOR x EVENT REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00614">614</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga61e396e2bbcfa4231b5348d85fd5f798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga61e396e2bbcfa4231b5348d85fd5f798">&#9670;&nbsp;</a></span>REG_PGxFFPCIH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxFFPCIH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxFFPCIH: PWM GENERATOR FEED FORWARD PCI REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00791">791</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga311f27853b5f6f9ef7920a030e0c178f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga311f27853b5f6f9ef7920a030e0c178f">&#9670;&nbsp;</a></span>REG_PGxFFPCIL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxFFPCIL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxFFPCIL: PWM GENERATOR FEED FORWARD PCI REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00766">766</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gac8d23ab57bd751549b9b48848222c7a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac8d23ab57bd751549b9b48848222c7a6">&#9670;&nbsp;</a></span>REG_PGxFPCIH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxFPCIH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxFPCIH: PWM GENERATOR FAULT PCI REGISTER HIGH. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00741">741</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga82f53564541df57f2df918d92084a21f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga82f53564541df57f2df918d92084a21f">&#9670;&nbsp;</a></span>REG_PGxFPCIL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxFPCIL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxFPCIL: PWM GENERATOR FAULT PCI REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00716">716</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga1908a97f9d00772635881edbf84e3a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1908a97f9d00772635881edbf84e3a3c">&#9670;&nbsp;</a></span>REG_PGxIOCONH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxIOCONH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxIOCONH: PWM GENERATOR x I/O CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00589">589</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga773a7e8ae90a6288ac7da4618ff9e88b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga773a7e8ae90a6288ac7da4618ff9e88b">&#9670;&nbsp;</a></span>REG_PGxIOCONL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxIOCONL&#160;&#160;&#160;0b0011000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxIOCONL: PWM GENERATOR x I/O CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00564">564</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gab46aa5c2defa45795e640e87244dd0a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab46aa5c2defa45795e640e87244dd0a9">&#9670;&nbsp;</a></span>REG_PGxLEBH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxLEBH&#160;&#160;&#160;0b0000000000001000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxLEBH: PWM GENERATOR x LEADING-EDGE BLANKING REGISTER HIGH. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00866">866</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gac5e5e56ba2ab61c749ccf6c90f4fc57f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac5e5e56ba2ab61c749ccf6c90f4fc57f">&#9670;&nbsp;</a></span>REG_PGxLEBL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxLEBL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxLEBL: PWM GENERATOR x LEADING-EDGE BLANKING REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00891">891</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga49035d97c7e3c40fac295b55d6fa4bd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga49035d97c7e3c40fac295b55d6fa4bd4">&#9670;&nbsp;</a></span>REG_PGxSPCIH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxSPCIH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxSPCIH: PWM GENERATOR SOFTWARE PCI REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00841">841</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga23da692272bf30c16381ddc0eed5772d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga23da692272bf30c16381ddc0eed5772d">&#9670;&nbsp;</a></span>REG_PGxSPCIL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PGxSPCIL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PGxSPCIL: PWM GENERATOR SOFTWARE PCI REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00816">816</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga987ebed7e970e364c0986087d7d21cd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga987ebed7e970e364c0986087d7d21cd0">&#9670;&nbsp;</a></span>REG_PWMEVTA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PWMEVTA&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWMEVTA: PWM EVENT OUTPUT CONTROL REGISTER A. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00305">305</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga4ae66de18b14ab166fcd140318d08697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ae66de18b14ab166fcd140318d08697">&#9670;&nbsp;</a></span>REG_PWMEVTB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PWMEVTB&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWMEVTB: PWM EVENT OUTPUT CONTROL REGISTER B. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00330">330</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gaf59cdce02f7847878525ace87bcc58bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf59cdce02f7847878525ace87bcc58bd">&#9670;&nbsp;</a></span>REG_PWMEVTC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PWMEVTC&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWMEVTC: PWM EVENT OUTPUT CONTROL REGISTER C. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00355">355</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gafccdfc12921bc78b723a3a91f8f93f37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafccdfc12921bc78b723a3a91f8f93f37">&#9670;&nbsp;</a></span>REG_PWMEVTD</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PWMEVTD&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWMEVTD: PWM EVENT OUTPUT CONTROL REGISTER D. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00380">380</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="gaf83e935cab7d759d0aff9c1d0e678dda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf83e935cab7d759d0aff9c1d0e678dda">&#9670;&nbsp;</a></span>REG_PWMEVTE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PWMEVTE&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWMEVTE: PWM EVENT OUTPUT CONTROL REGISTER E. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00405">405</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
+<p>This function disables the PWM generator IOs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
+<p>This function suspends the buck PWM operation by disabling all PWM outputs of the recent buck converter configuration, overriding the PWM output pins and setting the duty cycle to 0. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00251_source.html#l00327">327</a> of file <a class="el" href="a00251_source.html">dev_buck_pconfig.c</a>.</p>
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gae63dbb1465ca458b8b7f6733a30f7d0b_cgraph.svg" width="660" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00501_gae63dbb1465ca458b8b7f6733a30f7d0b_icgraph.svg" width="295" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-</div>
-<a id="gaa3add0aac78e496cf53fb28e10f4c415"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa3add0aac78e496cf53fb28e10f4c415">&#9670;&nbsp;</a></span>REG_PWMEVTF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_PWMEVTF&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWMEVTF: PWM EVENT OUTPUT CONTROL REGISTER F. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00296_source.html#l00430">430</a> of file <a class="el" href="a00296_source.html">dev_buck_ptemp_pwm.h</a>.</p>
-
-</div>
-</div>
-<a id="ga91d0af2b9336b872cb114c3b58efa261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91d0af2b9336b872cb114c3b58efa261">&#9670;&nbsp;</a></span>REG_SLPxCONH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_SLPxCONH&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>SLPxCONH: DACx SLOPE CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00290_source.html#l00153">153</a> of file <a class="el" href="a00290_source.html">dev_buck_ptemp_dac.h</a>.</p>
-
-</div>
-</div>
-<a id="ga512689ef8611be9275733eb81f13707f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga512689ef8611be9275733eb81f13707f">&#9670;&nbsp;</a></span>REG_SLPxCONL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define REG_SLPxCONL&#160;&#160;&#160;0b0000000000000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>SLPxCONL: DACx SLOPE CONTROL REGISTER LOW. </p>
-
-<p class="definition">Definition at line <a class="el" href="a00290_source.html#l00127">127</a> of file <a class="el" href="a00290_source.html">dev_buck_ptemp_dac.h</a>.</p>
 
 </div>
 </div>

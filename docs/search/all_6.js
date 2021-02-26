@@ -47,10 +47,10 @@ var searchData=
   ['function_5fis_782',['FUNCTION_IS',['../a00449.html#ga4b96e5997d3918f1c3ca3d86b5b0f85e',1,'dev_lcd.c']]],
   ['function_5fnis_783',['FUNCTION_nIS',['../a00449.html#ga6a4251a67740d9183746352cae06a66b',1,'dev_lcd.c']]],
   ['fvco_784',['fvco',['../a00904.html#a80746275089fea05136dc21048ba5f11',1,'OSCILLATOR_SYSTEM_FREQUENCIES_s']]],
-  ['functions_785',['Functions',['../a00491.html',1,'']]],
-  ['functions_786',['Functions',['../a00497.html',1,'']]],
-  ['functions_787',['Functions',['../a00485.html',1,'']]],
-  ['functions_788',['Functions',['../a00479.html',1,'']]],
+  ['functions_785',['Functions',['../a00501.html',1,'']]],
+  ['functions_786',['Functions',['../a00507.html',1,'']]],
+  ['functions_787',['Functions',['../a00495.html',1,'']]],
+  ['functions_788',['Functions',['../a00489.html',1,'']]],
   ['fault_20handler_20library_789',['Fault Handler Library',['../a00429.html',1,'']]],
-  ['functions_790',['Functions',['../a00503.html',1,'']]]
+  ['functions_790',['Functions',['../a00513.html',1,'']]]
 ];

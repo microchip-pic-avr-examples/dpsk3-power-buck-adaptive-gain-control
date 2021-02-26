@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Digital Power Starter Kit 3 Firmware: Functions</title>
+<title>Digital Power Starter Kit 3 Firmware: Data Types</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,132 +104,205 @@ $(document).ready(function(){initNavTree('a00485.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
-<div class="title">Functions<div class="ingroups"><a class="el" href="a00539.html">Device Driver Library Layer</a> &raquo; <a class="el" href="a00466.html">Buck Converter Library</a> &raquo; <a class="el" href="a00477.html">Buck Converter Library Modules</a> &raquo; <a class="el" href="a00484.html">Buck Special Functions</a></div></div>  </div>
+<div class="title">Data Types<div class="ingroups"><a class="el" href="a00539.html">Device Driver Library Layer</a> &raquo; <a class="el" href="a00476.html">Buck Converter Library</a> &raquo; <a class="el" href="a00477.html">Buck Converter Library API</a> &raquo; <a class="el" href="a00483.html">Private Properties</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Public functions of the second library layer.  
-<a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Functions:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for Data Types:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00485.svg" width="298" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00485.svg" width="271" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga8573aaa632abde3518f8a4448ff73cf7"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga8573aaa632abde3518f8a4448ff73cf7">drv_BuckConverter_SpecialFunctionExecute</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance, volatile enum <a class="el" href="a00488.html#ga3c2021030c83c9decfce3a892febcb9d">BUCK_SPECIAL_FUNCTIONS_e</a> specialFunction)</td></tr>
-<tr class="memdesc:ga8573aaa632abde3518f8a4448ff73cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the public function call access point to call dedicated special sub-functions.  <a href="a00485.html#ga8573aaa632abde3518f8a4448ff73cf7">More...</a><br /></td></tr>
-<tr class="separator:ga8573aaa632abde3518f8a4448ff73cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga337549d1d76534d9b092d7c8bdaf686a"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga337549d1d76534d9b092d7c8bdaf686a">CurrentSenseOffsetCalibration</a> (volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *buckInstance)</td></tr>
-<tr class="memdesc:ga337549d1d76534d9b092d7c8bdaf686a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an offset calibration of the current sense feedback signal(s)  <a href="a00485.html#ga337549d1d76534d9b092d7c8bdaf686a">More...</a><br /></td></tr>
-<tr class="separator:ga337549d1d76534d9b092d7c8bdaf686a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01492.html">BUCK_CONVERTER_STATUS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic power controller status word.  <a href="a01492.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01504.html">BUCK_STATE_ID_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data structure for the buck statement ID for sub-operating and operating states  <a href="a01504.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01516.html">BUCK_STARTUP_PERIOD_HANDLER_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic power controller startup period settings.  <a href="a01516.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01520.html">BUCK_CONVERTER_STARTUP_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power Converter Startup Timing Settings.  <a href="a01520.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01524.html">BUCK_CONVERTER_DATA_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Publicly accessible data buffer of most recent runtime data values.  <a href="a01524.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01528.html">BUCK_CONVERTER_SETTINGS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic power controller control settings.  <a href="a01528.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01532.html">BUCK_LOOP_SETTINGS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">User defined settings for control loops;.  <a href="a01532.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01536.html">BUCK_SWITCH_NODE_SETTINGS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switching signal timing settings.  <a href="a01536.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01540.html">BUCK_ADC_INPUT_SCALING_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC input signal scaling = (ADCBUF - &lt;offset&gt;) * &lt;factor&gt; &gt;&gt; 2^&lt;scaler&gt;  <a href="a01540.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01544.html">BUCK_ADC_INPUT_SETTINGS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC input channel configuration.  <a href="a01544.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01548.html">BUCK_FEEDBACK_SETTINGS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buck converter feedback declarations.  <a href="a01548.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01552.html">BUCK_GPIO_INSTANCE_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO instance of the converter control GPIO.  <a href="a01552.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01556.html">BUCK_GPIO_SETTINGS_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO instance of the converter control GPIO.  <a href="a01556.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga7a455d7ce27a6a7f0208fe143e38c68f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga7a455d7ce27a6a7f0208fe143e38c68f">BUCK_STATUS_FLAGS_e</a> { <br />
+&#160;&#160;<b>BUCK_STAT_READY</b> = 0b0000000000000001, 
+<b>BUCK_STAT_ADC_ACTIVE</b> = 0b0000000000000010, 
+<b>BUCK_STAT_PWM_ACTIVE</b> = 0b0000000000000100, 
+<b>BUCK_STAT_POWERSOURCE_DETECTED</b> = 0b0000000000001000, 
+<b>BUCK_STAT_CS_SENSE_READY</b> = 0b0000000000010000, 
+<b>BUCK_STAT_FORCED_SHUT_DOWN</b> = 0b0000000010000000, 
+<b>BUCK_STAT_BUSY</b> = 0b0000000100000000, 
+<b>BUCK_STAT_GO</b> = 0b0010000000000000, 
+<b>BUCK_STAT_AUTORUN</b> = 0b0100000000000000, 
+<b>BUCK_STAT_NO_AUTORUN</b> = 0b0000000000000000, 
+<br />
+&#160;&#160;<b>BUCK_STAT_ENABLED</b> = 0b1000000000000000, 
+<b>BUCK_STAT_DISABLED</b> = 0b0000000000000000
+<br />
+ }</td></tr>
+<tr class="memdesc:ga7a455d7ce27a6a7f0208fe143e38c68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of status and control flags.  <a href="a00485.html#ga7a455d7ce27a6a7f0208fe143e38c68f">More...</a><br /></td></tr>
+<tr class="separator:ga7a455d7ce27a6a7f0208fe143e38c68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f85834a96d2f15029e2d3126006629d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga7f85834a96d2f15029e2d3126006629d">BUCK_OPSTATES_e</a> { <b>BUCK_OPSTATE_ERROR</b> = 0x00, 
+<b>BUCK_OPSTATE_INITIALIZE</b> = 0x01, 
+<b>BUCK_OPSTATE_RESET</b> = 0x02, 
+<b>BUCK_OPSTATE_STANDBY</b> = 0x03, 
+<b>BUCK_OPSTATE_RAMPUP</b> = 0x04, 
+<b>BUCK_OPSTATE_ONLINE</b> = 0x05
+ }</td></tr>
+<tr class="memdesc:ga7f85834a96d2f15029e2d3126006629d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of state machine operating states.  <a href="a00485.html#ga7f85834a96d2f15029e2d3126006629d">More...</a><br /></td></tr>
+<tr class="separator:ga7f85834a96d2f15029e2d3126006629d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2db122348a48e04bad8e0dea47327793"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga2db122348a48e04bad8e0dea47327793">BUCK_SUBSTATES_e</a> { <b>BUCK_OPSTATE_POWER_ON_DELAY</b> = 0x00, 
+<b>BUCK_OPSTATE_PREPARE_V_RAMP</b> = 0x01, 
+<b>BUCK_OPSTATE_V_RAMP_UP</b> = 0x02, 
+<b>BUCK_OPSTATE_I_RAMP_UP</b> = 0x03, 
+<b>BUCK_OPSTATE_PWRGOOD_DELAY</b> = 0x04
+ }</td></tr>
+<tr class="memdesc:ga2db122348a48e04bad8e0dea47327793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of state machine operating sub-states.  <a href="a00485.html#ga2db122348a48e04bad8e0dea47327793">More...</a><br /></td></tr>
+<tr class="separator:ga2db122348a48e04bad8e0dea47327793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga547cd0fca463251bde6392c2e79ab8f6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga547cd0fca463251bde6392c2e79ab8f6">BUCK_OPSTATE_RETURNS_e</a> { <b>BUCK_OPSRET_ERROR</b> = 0x0000, 
+<b>BUCK_OPSRET_COMPLETE</b> = 0x0001, 
+<b>BUCK_OPSRET_REPEAT</b> = 0x0002
+ }</td></tr>
+<tr class="memdesc:ga547cd0fca463251bde6392c2e79ab8f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of state machine operating state return values.  <a href="a00485.html#ga547cd0fca463251bde6392c2e79ab8f6">More...</a><br /></td></tr>
+<tr class="separator:ga547cd0fca463251bde6392c2e79ab8f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a34fa9e4da52a8bf6a056323c6c7e11"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00485.html#ga7a34fa9e4da52a8bf6a056323c6c7e11">BUCK_CONTROL_MODE_e</a> { <b>BUCK_CONTROL_MODE_VMC</b> = 0, 
+<b>BUCK_CONTROL_MODE_ACMC</b> = 2
+ }</td></tr>
+<tr class="memdesc:ga7a34fa9e4da52a8bf6a056323c6c7e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of the power supply mode control.  <a href="a00485.html#ga7a34fa9e4da52a8bf6a056323c6c7e11">More...</a><br /></td></tr>
+<tr class="separator:ga7a34fa9e4da52a8bf6a056323c6c7e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Public functions of the second library layer. </p>
-<p>This is the detailed description of public functions of the special function module of the buck converter device driver library. </p>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ga337549d1d76534d9b092d7c8bdaf686a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga337549d1d76534d9b092d7c8bdaf686a">&#9670;&nbsp;</a></span>CurrentSenseOffsetCalibration()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga7a34fa9e4da52a8bf6a056323c6c7e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a34fa9e4da52a8bf6a056323c6c7e11">&#9670;&nbsp;</a></span>BUCK_CONTROL_MODE_e</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile uint16_t CurrentSenseOffsetCalibration </td>
-          <td>(</td>
-          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
-          <td class="paramname"><em>buckInstance</em></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="a00485.html#ga7a34fa9e4da52a8bf6a056323c6c7e11">BUCK_CONTROL_MODE_e</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Performs an offset calibration of the current sense feedback signal(s) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>unsigned integer (0=failure, 1=success)</dd></dl>
-<p>This function performs a current sense feedback channel zero-offset calibration. The calibration is executed when the reference voltage is applied to the current sense shunt amplifiers but the power supply is still turned off. The offset value is determined by a 4x oversampling of each of the feedback signals to eliminate high-frequency noise. Once the calibration is complete, the 'cs_calib_complete' status bit in the buck converter power controller object status word is set, allowing the state machine to run. </p>
+<p>Enumeration of the power supply mode control. </p>
 
-<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00178">178</a> of file <a class="el" href="a00263_source.html">dev_buck_special_functions.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="a00272_source.html#l00151">151</a> of file <a class="el" href="a00272_source.html">dev_buck_typedef.h</a>.</p>
 
 </div>
 </div>
-<a id="ga8573aaa632abde3518f8a4448ff73cf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8573aaa632abde3518f8a4448ff73cf7">&#9670;&nbsp;</a></span>drv_BuckConverter_SpecialFunctionExecute()</h2>
+<a id="ga547cd0fca463251bde6392c2e79ab8f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga547cd0fca463251bde6392c2e79ab8f6">&#9670;&nbsp;</a></span>BUCK_OPSTATE_RETURNS_e</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile uint16_t drv_BuckConverter_SpecialFunctionExecute </td>
-          <td>(</td>
-          <td class="paramtype">volatile struct <a class="el" href="a01560.html">BUCK_CONVERTER_s</a> *&#160;</td>
-          <td class="paramname"><em>buckInstance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">volatile enum <a class="el" href="a00488.html#ga3c2021030c83c9decfce3a892febcb9d">BUCK_SPECIAL_FUNCTIONS_e</a>&#160;</td>
-          <td class="paramname"><em>specialFunction</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">enum <a class="el" href="a00485.html#ga547cd0fca463251bde6392c2e79ab8f6">BUCK_OPSTATE_RETURNS_e</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This is the public function call access point to call dedicated special sub-functions. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">buckInstance</td><td>Pointer to a Buck Converter data object of type struct <a class="el" href="a01560.html" title="BUCK control &amp; monitoring data structure.">BUCK_CONVERTER_s</a> </td></tr>
-    <tr><td class="paramname">specialFunction</td><td>Special function selection list of type enum BUCK_SPECIAL_FUNCTIONS_e </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>0 = BUCK_OPSRET_ERROR <br  />
- </dd>
-<dd>
-1 = BUCK_OPSRET_COMPLETE </dd>
-<dd>
-2 = BUCK_OPSRET_REPEAT <br  />
-</dd></dl>
-<p>This function call is the public API function call to execute one of the special functions supported by this power converter device driver extension.</p>
-<p><b>Example:</b></p>
-<p>The following example initiates the automatic feedback sense offset calibration. Special Functions behave like all other state machine states and sub-states by returning the results ERROR, COMPLETE or REPEAT.</p>
-<ul>
-<li>BUCK_OPSRET_ERROR An unexpected error occurred during execution of the Special Function routine, which prevents the state machine from continuing. If a ERROR is returned, it is recommended to reset the state machine and start all over.</li>
-<li>BUCK_OPSRET_COMPLETE If the COMPLETE flag is returned, the Special Function has successfully completed and the state machine may move on.</li>
-<li>BUCK_OPSRET_REPEAT If the REPEAT flag is returned, the function has to be called again until it returns the COMPLETE flag.</li>
-</ul>
-<div class="fragment"><div class="line">retval = <a class="code" href="a00485.html#ga8573aaa632abde3518f8a4448ff73cf7">drv_BuckConverter_SpecialFunctionExecute</a>(&amp;buckConverter, CS_OFSET_CALIBRATION);</div>
-</div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="a00263_source.html#l00133">133</a> of file <a class="el" href="a00263_source.html">dev_buck_special_functions.c</a>.</p>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00485_ga8573aaa632abde3518f8a4448ff73cf7_icgraph.svg" width="346" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<p>Enumeration of state machine operating state return values. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00272_source.html#l00135">135</a> of file <a class="el" href="a00272_source.html">dev_buck_typedef.h</a>.</p>
+
 </div>
 </div>
+<a id="ga7f85834a96d2f15029e2d3126006629d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f85834a96d2f15029e2d3126006629d">&#9670;&nbsp;</a></span>BUCK_OPSTATES_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00485.html#ga7f85834a96d2f15029e2d3126006629d">BUCK_OPSTATES_e</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of state machine operating states. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00272_source.html#l00099">99</a> of file <a class="el" href="a00272_source.html">dev_buck_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7a455d7ce27a6a7f0208fe143e38c68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a455d7ce27a6a7f0208fe143e38c68f">&#9670;&nbsp;</a></span>BUCK_STATUS_FLAGS_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00485.html#ga7a455d7ce27a6a7f0208fe143e38c68f">BUCK_STATUS_FLAGS_e</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of status and control flags. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00272_source.html#l00071">71</a> of file <a class="el" href="a00272_source.html">dev_buck_typedef.h</a>.</p>
+
+</div>
+</div>
+<a id="ga2db122348a48e04bad8e0dea47327793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2db122348a48e04bad8e0dea47327793">&#9670;&nbsp;</a></span>BUCK_SUBSTATES_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00485.html#ga2db122348a48e04bad8e0dea47327793">BUCK_SUBSTATES_e</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumeration of state machine operating sub-states. </p>
+
+<p class="definition">Definition at line <a class="el" href="a00272_source.html#l00118">118</a> of file <a class="el" href="a00272_source.html">dev_buck_typedef.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aa00485_html_ga8573aaa632abde3518f8a4448ff73cf7"><div class="ttname"><a href="a00485.html#ga8573aaa632abde3518f8a4448ff73cf7">drv_BuckConverter_SpecialFunctionExecute</a></div><div class="ttdeci">volatile uint16_t drv_BuckConverter_SpecialFunctionExecute(volatile struct BUCK_CONVERTER_s *buckInstance, volatile enum BUCK_SPECIAL_FUNCTIONS_e specialFunction)</div><div class="ttdoc">This is the public function call access point to call dedicated special sub-functions.</div><div class="ttdef"><b>Definition:</b> <a href="a00263_source.html#l00133">dev_buck_special_functions.c:133</a></div></div>
 <!-- HTML footer for doxygen 1.8.20-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

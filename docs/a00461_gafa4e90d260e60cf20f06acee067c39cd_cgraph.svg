@@ -67,7 +67,7 @@ var sectionId = 'dynsection-8';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="a00468.html#ga0d68d132b52175c43503c9b5794bae64" target="_top" xlink:title="This function suspends the operation of the buck converter.">
+<g id="a_node2"><a xlink:href="a00478.html#ga0d68d132b52175c43503c9b5794bae64" target="_top" xlink:title="This function suspends the operation of the buck converter.">
 <polygon fill="white" stroke="black" points="169,-0.5 169,-19.5 309,-19.5 309,-0.5 169,-0.5"/>
 <text text-anchor="middle" x="239" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Suspend</text>
 </a>
@@ -82,7 +82,7 @@ var sectionId = 'dynsection-8';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="a00468.html#gab9877f90ffb129964ae42ce2921b3fe1" target="_top" xlink:title="This function is the main buck converter state machine executing the most recent state.">
+<g id="a_node3"><a xlink:href="a00478.html#gab9877f90ffb129964ae42ce2921b3fe1" target="_top" xlink:title="This function is the main buck converter state machine executing the most recent state.">
 <polygon fill="white" stroke="black" points="345,-0.5 345,-19.5 483,-19.5 483,-0.5 345,-0.5"/>
 <text text-anchor="middle" x="414" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Execute</text>
 </a>
@@ -97,7 +97,7 @@ var sectionId = 'dynsection-8';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="a00491.html#ga8e2253c136f05033e774d09032b283a1" target="_top" xlink:title="This function gets the state of the selected pin.">
+<g id="a_node4"><a xlink:href="a00501.html#ga8e2253c136f05033e774d09032b283a1" target="_top" xlink:title="This function gets the state of the selected pin.">
 <polygon fill="white" stroke="black" points="519,-0.5 519,-19.5 639,-19.5 639,-0.5 519,-0.5"/>
 <text text-anchor="middle" x="579" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_GetPinState</text>
 </a>

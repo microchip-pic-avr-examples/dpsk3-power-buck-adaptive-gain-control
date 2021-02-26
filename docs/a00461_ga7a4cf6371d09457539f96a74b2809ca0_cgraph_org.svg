@@ -69,7 +69,7 @@
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="a00468.html#ga86289c82938655142075e84ac90aa603" target="_top" xlink:title="This function starts the buck converter.">
+<g id="a_node22"><a xlink:href="a00478.html#ga86289c82938655142075e84ac90aa603" target="_top" xlink:title="This function starts the buck converter.">
 <polygon fill="white" stroke="black" points="176,-38.5 176,-57.5 299,-57.5 299,-38.5 176,-38.5"/>
 <text text-anchor="middle" x="237.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Start</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="a00503.html#ga62d45a18f3dd47fa691fbb463f90e051" target="_top" xlink:title="Initializes controller coefficient arrays and normalization factors.">
+<g id="a_node3"><a xlink:href="a00513.html#ga62d45a18f3dd47fa691fbb463f90e051" target="_top" xlink:title="Initializes controller coefficient arrays and normalization factors.">
 <polygon fill="white" stroke="black" points="371.5,-265.5 371.5,-284.5 455.5,-284.5 455.5,-265.5 371.5,-265.5"/>
 <text text-anchor="middle" x="413.5" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Initialize</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="a00503.html#gabb35e824b8586b680f54d59975ada3c7" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Reset&#39; clearing the NPNZ16b controller output and error hi...">
+<g id="a_node4"><a xlink:href="a00513.html#gabb35e824b8586b680f54d59975ada3c7" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Reset&#39; clearing the NPNZ16b controller output and error hi...">
 <polygon fill="white" stroke="black" points="550,-264.5 550,-283.5 624,-283.5 624,-264.5 550,-264.5"/>
 <text text-anchor="middle" x="587" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Reset</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="a00503.html#ga3cdf7d86ab440015768706f04bd588e9" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Precharge&#39; loading user&#45;defined values into the NPNZ16b co...">
+<g id="a_node5"><a xlink:href="a00513.html#ga3cdf7d86ab440015768706f04bd588e9" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Precharge&#39; loading user&#45;defined values into the NPNZ16b co...">
 <polygon fill="white" stroke="black" points="367,-227.5 367,-246.5 460,-246.5 460,-227.5 367,-227.5"/>
 <text text-anchor="middle" x="413.5" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Precharge</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="a00503.html#gab8180f1cb973d694be5caffaec3ce940" target="_top" xlink:title="Prototype of the Assembly feedback control loop routine helping to call the v_loop controller from C&#45;...">
+<g id="a_node6"><a xlink:href="a00513.html#gab8180f1cb973d694be5caffaec3ce940" target="_top" xlink:title="Prototype of the Assembly feedback control loop routine helping to call the v_loop controller from C&#45;...">
 <polygon fill="white" stroke="black" points="373.5,-189.5 373.5,-208.5 453.5,-208.5 453.5,-189.5 373.5,-189.5"/>
 <text text-anchor="middle" x="413.5" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Update</text>
 </a>
@@ -150,7 +150,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="a00468.html#gaf3c64772d6dfd473d6924fb8893bd180" target="_top" xlink:title="This function initializes all peripheral modules and their instances used by the power controller.">
+<g id="a_node9"><a xlink:href="a00478.html#gaf3c64772d6dfd473d6924fb8893bd180" target="_top" xlink:title="This function initializes all peripheral modules and their instances used by the power controller.">
 <polygon fill="white" stroke="black" points="345,-104.5 345,-123.5 482,-123.5 482,-104.5 345,-104.5"/>
 <text text-anchor="middle" x="413.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Initialize</text>
 </a>
@@ -165,7 +165,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="a00491.html#gac2bfd6c3ccd9ec11b8e91322ea9354d2" target="_top" xlink:title="This function initializes the settings for the ADC channel.">
+<g id="a_node10"><a xlink:href="a00501.html#gac2bfd6c3ccd9ec11b8e91322ea9354d2" target="_top" xlink:title="This function initializes the settings for the ADC channel.">
 <polygon fill="white" stroke="black" points="520,-133.5 520,-152.5 654,-152.5 654,-133.5 520,-133.5"/>
 <text text-anchor="middle" x="587" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckADC_ChannelInitialize</text>
 </a>
@@ -180,7 +180,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="a00491.html#ga44f537d9ad5dcb0e744480802cfbf170" target="_top" xlink:title="This fucntion initializes the buck by resetting all its registers to default.">
+<g id="a_node11"><a xlink:href="a00501.html#ga44f537d9ad5dcb0e744480802cfbf170" target="_top" xlink:title="This fucntion initializes the buck by resetting all its registers to default.">
 <polygon fill="white" stroke="black" points="522,-95.5 522,-114.5 652,-114.5 652,-95.5 522,-95.5"/>
 <text text-anchor="middle" x="587" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckADC_ModuleInitialize</text>
 </a>
@@ -195,7 +195,7 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="a00491.html#gac7e5924475733c189b2318844ae01844" target="_top" xlink:title="This function initializes the buck input pins.">
+<g id="a_node12"><a xlink:href="a00501.html#gac7e5924475733c189b2318844ae01844" target="_top" xlink:title="This function initializes the buck input pins.">
 <polygon fill="white" stroke="black" points="536,-171.5 536,-190.5 638,-190.5 638,-171.5 536,-171.5"/>
 <text text-anchor="middle" x="587" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_Initialize</text>
 </a>
@@ -210,7 +210,7 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="a00491.html#ga45a54def97cc67eb8d36e22a3867d95f" target="_top" xlink:title="This function initializes the output pins for the PWM output and the default buck PWM settings.">
+<g id="a_node16"><a xlink:href="a00501.html#ga45a54def97cc67eb8d36e22a3867d95f" target="_top" xlink:title="This function initializes the output pins for the PWM output and the default buck PWM settings.">
 <polygon fill="white" stroke="black" points="518,-57.5 518,-76.5 656,-76.5 656,-57.5 518,-57.5"/>
 <text text-anchor="middle" x="587" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_ChannelInitialize</text>
 </a>
@@ -225,7 +225,7 @@
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="a00491.html#ga6d12fd9e2f1d4f01ec6db21454693863" target="_top" xlink:title="Initializes the buck PWM module by resetting its registers to default.">
+<g id="a_node19"><a xlink:href="a00501.html#ga6d12fd9e2f1d4f01ec6db21454693863" target="_top" xlink:title="Initializes the buck PWM module by resetting its registers to default.">
 <polygon fill="white" stroke="black" points="520,-221.5 520,-240.5 654,-240.5 654,-221.5 520,-221.5"/>
 <text text-anchor="middle" x="587" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_ModuleInitialize</text>
 </a>
@@ -240,7 +240,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="a00491.html#ga7f1d554e08d756b8677b572216908a3a" target="_top" xlink:title="This function clears the selected general purpose input/output pin.">
+<g id="a_node13"><a xlink:href="a00501.html#ga7f1d554e08d756b8677b572216908a3a" target="_top" xlink:title="This function clears the selected general purpose input/output pin.">
 <polygon fill="white" stroke="black" points="726.5,-145.5 726.5,-164.5 815.5,-164.5 815.5,-145.5 726.5,-145.5"/>
 <text text-anchor="middle" x="771" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_Clear</text>
 </a>
@@ -255,7 +255,7 @@
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="a00491.html#ga3d3f91c0e40884874e7df3a67fff23f3" target="_top" xlink:title="This function sets the pin as input or output.">
+<g id="a_node15"><a xlink:href="a00501.html#ga3d3f91c0e40884874e7df3a67fff23f3" target="_top" xlink:title="This function sets the pin as input or output.">
 <polygon fill="white" stroke="black" points="705.5,-183.5 705.5,-202.5 836.5,-202.5 836.5,-183.5 705.5,-183.5"/>
 <text text-anchor="middle" x="771" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_PrivateInitialize</text>
 </a>
@@ -358,7 +358,7 @@
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="a00491.html#gab089e35bcd5d68072aa53298ee276959" target="_top" xlink:title="This function enables the ADC module and starts the ADC cores analog inputs for the required input si...">
+<g id="a_node23"><a xlink:href="a00501.html#gab089e35bcd5d68072aa53298ee276959" target="_top" xlink:title="This function enables the ADC module and starts the ADC cores analog inputs for the required input si...">
 <polygon fill="white" stroke="black" points="371.5,-0.5 371.5,-19.5 455.5,-19.5 455.5,-0.5 371.5,-0.5"/>
 <text text-anchor="middle" x="413.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckADC_Start</text>
 </a>
@@ -373,7 +373,7 @@
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="a00491.html#gac63073d04bc35c0cce5df47ea0d33165" target="_top" xlink:title="This function enables the buck PWM operation.">
+<g id="a_node24"><a xlink:href="a00501.html#gac63073d04bc35c0cce5df47ea0d33165" target="_top" xlink:title="This function enables the buck PWM operation.">
 <polygon fill="white" stroke="black" points="369,-38.5 369,-57.5 458,-57.5 458,-38.5 369,-38.5"/>
 <text text-anchor="middle" x="413.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_Start</text>
 </a>

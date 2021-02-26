@@ -1,6 +1,4 @@
 var a00473 =
 [
-    [ "Variables & Constants", "a00474.html", null ],
-    [ "Data Types", "a00475.html", "a00475" ],
-    [ "Defines and Macros", "a00476.html", null ]
+    [ "_BUCK_VLOOP_Interrupt", "a00418.html#ga4d26e0585523e4ab162ca9868517b878", null ]
 ];

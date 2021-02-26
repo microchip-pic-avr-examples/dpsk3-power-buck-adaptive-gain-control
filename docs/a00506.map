@@ -1,4 +1,6 @@
-<map id="Data Objects" name="Data Objects">
-<area shape="rect" id="node1" title="Public properties of the Power Converter Control driver." alt="" coords="135,5,233,31"/>
-<area shape="rect" id="node2" href="$a00505.html" title="Public properties of the Power Converter Control driver." alt="" coords="5,5,87,31"/>
+<map id="Buck Peripheral Templates" name="Buck Peripheral Templates">
+<area shape="rect" id="node1" href="$a00508.html" title="Properties of the second library layer." alt="" coords="433,5,515,31"/>
+<area shape="rect" id="node2" href="$a00507.html" title="Functions of the second library layer." alt="" coords="435,55,513,80"/>
+<area shape="rect" id="node3" href="$a00487.html" title=" " alt="" coords="5,23,159,63"/>
+<area shape="rect" id="node4" title=" " alt="" coords="207,31,385,56"/>
 </map>

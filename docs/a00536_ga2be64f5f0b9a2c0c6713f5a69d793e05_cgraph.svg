@@ -112,7 +112,7 @@ var sectionId = 'dynsection-1';
 <!-- Node24 -->
 <g id="node22" class="node">
 <title>Node24</title>
-<g id="a_node22"><a xlink:href="a00461.html#ga7a4cf6371d09457539f96a74b2809ca0" target="_top" xlink:title="Calls the application layer power controller initialization.">
+<g id="a_node22"><a xlink:href="a00471.html#ga7a4cf6371d09457539f96a74b2809ca0" target="_top" xlink:title="Calls the application layer power controller initialization.">
 <polygon fill="white" stroke="black" points="155,-241 155,-260 285,-260 285,-241 155,-241"/>
 <text text-anchor="middle" x="220" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">appPowerSupply_Initialize</text>
 </a>
@@ -127,7 +127,7 @@ var sectionId = 'dynsection-1';
 <!-- Node47 -->
 <g id="node45" class="node">
 <title>Node47</title>
-<g id="a_node45"><a xlink:href="a00511.html#ga7c903bd2ce5b08d78de218d726830947" target="_top" xlink:title="Initializes the USER push button on DPSK3.">
+<g id="a_node45"><a xlink:href="a00461.html#ga7c903bd2ce5b08d78de218d726830947" target="_top" xlink:title="Initializes the USER push button on DPSK3.">
 <polygon fill="white" stroke="black" points="158,-107 158,-126 282,-126 282,-107 158,-107"/>
 <text text-anchor="middle" x="220" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">appPushButton_Initialize</text>
 </a>
@@ -217,7 +217,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="a00461.html#gafa4e90d260e60cf20f06acee067c39cd" target="_top" xlink:title="This function stops the power supply operation.">
+<g id="a_node4"><a xlink:href="a00471.html#gafa4e90d260e60cf20f06acee067c39cd" target="_top" xlink:title="This function stops the power supply operation.">
 <polygon fill="white" stroke="black" points="524,-615 524,-634 657,-634 657,-615 524,-615"/>
 <text text-anchor="middle" x="590.5" y="-622" font-family="Helvetica,sans-Serif" font-size="10.00">appPowerSupply_Suspend</text>
 </a>
@@ -232,7 +232,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="a00468.html#ga0d68d132b52175c43503c9b5794bae64" target="_top" xlink:title="This function suspends the operation of the buck converter.">
+<g id="a_node5"><a xlink:href="a00478.html#ga0d68d132b52175c43503c9b5794bae64" target="_top" xlink:title="This function suspends the operation of the buck converter.">
 <polygon fill="white" stroke="black" points="695,-615 695,-634 835,-634 835,-615 695,-615"/>
 <text text-anchor="middle" x="765" y="-622" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Suspend</text>
 </a>
@@ -247,7 +247,7 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="a00468.html#gab9877f90ffb129964ae42ce2921b3fe1" target="_top" xlink:title="This function is the main buck converter state machine executing the most recent state.">
+<g id="a_node6"><a xlink:href="a00478.html#gab9877f90ffb129964ae42ce2921b3fe1" target="_top" xlink:title="This function is the main buck converter state machine executing the most recent state.">
 <polygon fill="white" stroke="red" points="881,-615 881,-634 1019,-634 1019,-615 881,-615"/>
 <text text-anchor="middle" x="950" y="-622" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Execute</text>
 </a>
@@ -448,7 +448,7 @@ var sectionId = 'dynsection-1';
 <!-- Node25 -->
 <g id="node23" class="node">
 <title>Node25</title>
-<g id="a_node23"><a xlink:href="a00464.html#ga0b4cabdb02c8c9ea94ea1dfa39de3764" target="_top" xlink:title="This function initializes the control system feedback loop objects.">
+<g id="a_node23"><a xlink:href="a00474.html#ga0b4cabdb02c8c9ea94ea1dfa39de3764" target="_top" xlink:title="This function initializes the control system feedback loop objects.">
 <polygon fill="white" stroke="black" points="335.5,-213.5 335.5,-243.5 471.5,-243.5 471.5,-213.5 335.5,-213.5"/>
 <text text-anchor="start" x="343.5" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">appPowerSupply_Controller</text>
 <text text-anchor="middle" x="403.5" y="-220.5" font-family="Helvetica,sans-Serif" font-size="10.00">Initialize</text>
@@ -464,7 +464,7 @@ var sectionId = 'dynsection-1';
 <!-- Node30 -->
 <g id="node28" class="node">
 <title>Node30</title>
-<g id="a_node28"><a xlink:href="a00464.html#gad0f6ff4894bf23722884c60bbcdcacd0" target="_top" xlink:title="This function initializes the buck converter device driver instance.">
+<g id="a_node28"><a xlink:href="a00474.html#gad0f6ff4894bf23722884c60bbcdcacd0" target="_top" xlink:title="This function initializes the buck converter device driver instance.">
 <polygon fill="white" stroke="black" points="336,-164.5 336,-194.5 471,-194.5 471,-164.5 336,-164.5"/>
 <text text-anchor="start" x="344" y="-182.5" font-family="Helvetica,sans-Serif" font-size="10.00">appPowerSupply_Converter</text>
 <text text-anchor="middle" x="403.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">ObjectInitialize</text>
@@ -480,7 +480,7 @@ var sectionId = 'dynsection-1';
 <!-- Node31 -->
 <g id="node29" class="node">
 <title>Node31</title>
-<g id="a_node29"><a xlink:href="a00464.html#ga0b26acfec74d1804384b4ba1a3cffab4" target="_top" xlink:title="This function is used to load peripheral configuration templates from the power controller device dri...">
+<g id="a_node29"><a xlink:href="a00474.html#ga0b26acfec74d1804384b4ba1a3cffab4" target="_top" xlink:title="This function is used to load peripheral configuration templates from the power controller device dri...">
 <polygon fill="white" stroke="black" points="332,-314.5 332,-344.5 475,-344.5 475,-314.5 332,-314.5"/>
 <text text-anchor="start" x="340" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">appPowerSupply_Peripherals</text>
 <text text-anchor="middle" x="403.5" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">Initialize</text>
@@ -496,7 +496,7 @@ var sectionId = 'dynsection-1';
 <!-- Node44 -->
 <g id="node42" class="node">
 <title>Node44</title>
-<g id="a_node42"><a xlink:href="a00468.html#ga86289c82938655142075e84ac90aa603" target="_top" xlink:title="This function starts the buck converter.">
+<g id="a_node42"><a xlink:href="a00478.html#ga86289c82938655142075e84ac90aa603" target="_top" xlink:title="This function starts the buck converter.">
 <polygon fill="white" stroke="black" points="342,-263 342,-282 465,-282 465,-263 342,-263"/>
 <text text-anchor="middle" x="403.5" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Start</text>
 </a>
@@ -511,7 +511,7 @@ var sectionId = 'dynsection-1';
 <!-- Node26 -->
 <g id="node24" class="node">
 <title>Node26</title>
-<g id="a_node24"><a xlink:href="a00503.html#ga62d45a18f3dd47fa691fbb463f90e051" target="_top" xlink:title="Initializes controller coefficient arrays and normalization factors.">
+<g id="a_node24"><a xlink:href="a00513.html#ga62d45a18f3dd47fa691fbb463f90e051" target="_top" xlink:title="Initializes controller coefficient arrays and normalization factors.">
 <polygon fill="white" stroke="black" points="548.5,-143 548.5,-162 632.5,-162 632.5,-143 548.5,-143"/>
 <text text-anchor="middle" x="590.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Initialize</text>
 </a>
@@ -526,7 +526,7 @@ var sectionId = 'dynsection-1';
 <!-- Node27 -->
 <g id="node25" class="node">
 <title>Node27</title>
-<g id="a_node25"><a xlink:href="a00503.html#gabb35e824b8586b680f54d59975ada3c7" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Reset&#39; clearing the NPNZ16b controller output and error hi...">
+<g id="a_node25"><a xlink:href="a00513.html#gabb35e824b8586b680f54d59975ada3c7" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Reset&#39; clearing the NPNZ16b controller output and error hi...">
 <polygon fill="white" stroke="black" points="728,-126 728,-145 802,-145 802,-126 728,-126"/>
 <text text-anchor="middle" x="765" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Reset</text>
 </a>
@@ -541,7 +541,7 @@ var sectionId = 'dynsection-1';
 <!-- Node28 -->
 <g id="node26" class="node">
 <title>Node28</title>
-<g id="a_node26"><a xlink:href="a00503.html#ga3cdf7d86ab440015768706f04bd588e9" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Precharge&#39; loading user&#45;defined values into the NPNZ16b co...">
+<g id="a_node26"><a xlink:href="a00513.html#ga3cdf7d86ab440015768706f04bd588e9" target="_top" xlink:title="Prototype of the Assembly routine &#39;_v_loop_Precharge&#39; loading user&#45;defined values into the NPNZ16b co...">
 <polygon fill="white" stroke="black" points="544,-219 544,-238 637,-238 637,-219 544,-219"/>
 <text text-anchor="middle" x="590.5" y="-226" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Precharge</text>
 </a>
@@ -556,7 +556,7 @@ var sectionId = 'dynsection-1';
 <!-- Node29 -->
 <g id="node27" class="node">
 <title>Node29</title>
-<g id="a_node27"><a xlink:href="a00503.html#gab8180f1cb973d694be5caffaec3ce940" target="_top" xlink:title="Prototype of the Assembly feedback control loop routine helping to call the v_loop controller from C&#45;...">
+<g id="a_node27"><a xlink:href="a00513.html#gab8180f1cb973d694be5caffaec3ce940" target="_top" xlink:title="Prototype of the Assembly feedback control loop routine helping to call the v_loop controller from C&#45;...">
 <polygon fill="white" stroke="black" points="550.5,-181 550.5,-200 630.5,-200 630.5,-181 550.5,-181"/>
 <text text-anchor="middle" x="590.5" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">v_loop_Update</text>
 </a>
@@ -577,7 +577,7 @@ var sectionId = 'dynsection-1';
 <!-- Node32 -->
 <g id="node30" class="node">
 <title>Node32</title>
-<g id="a_node30"><a xlink:href="a00468.html#gaf3c64772d6dfd473d6924fb8893bd180" target="_top" xlink:title="This function initializes all peripheral modules and their instances used by the power controller.">
+<g id="a_node30"><a xlink:href="a00478.html#gaf3c64772d6dfd473d6924fb8893bd180" target="_top" xlink:title="This function initializes all peripheral modules and their instances used by the power controller.">
 <polygon fill="white" stroke="black" points="522,-333 522,-352 659,-352 659,-333 522,-333"/>
 <text text-anchor="middle" x="590.5" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Initialize</text>
 </a>
@@ -592,7 +592,7 @@ var sectionId = 'dynsection-1';
 <!-- Node33 -->
 <g id="node31" class="node">
 <title>Node33</title>
-<g id="a_node31"><a xlink:href="a00491.html#gac2bfd6c3ccd9ec11b8e91322ea9354d2" target="_top" xlink:title="This function initializes the settings for the ADC channel.">
+<g id="a_node31"><a xlink:href="a00501.html#gac2bfd6c3ccd9ec11b8e91322ea9354d2" target="_top" xlink:title="This function initializes the settings for the ADC channel.">
 <polygon fill="white" stroke="black" points="698,-349 698,-368 832,-368 832,-349 698,-349"/>
 <text text-anchor="middle" x="765" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00">buckADC_ChannelInitialize</text>
 </a>
@@ -607,7 +607,7 @@ var sectionId = 'dynsection-1';
 <!-- Node34 -->
 <g id="node32" class="node">
 <title>Node34</title>
-<g id="a_node32"><a xlink:href="a00491.html#ga44f537d9ad5dcb0e744480802cfbf170" target="_top" xlink:title="This fucntion initializes the buck by resetting all its registers to default.">
+<g id="a_node32"><a xlink:href="a00501.html#ga44f537d9ad5dcb0e744480802cfbf170" target="_top" xlink:title="This fucntion initializes the buck by resetting all its registers to default.">
 <polygon fill="white" stroke="black" points="700,-311 700,-330 830,-330 830,-311 700,-311"/>
 <text text-anchor="middle" x="765" y="-318" font-family="Helvetica,sans-Serif" font-size="10.00">buckADC_ModuleInitialize</text>
 </a>
@@ -622,7 +622,7 @@ var sectionId = 'dynsection-1';
 <!-- Node35 -->
 <g id="node33" class="node">
 <title>Node35</title>
-<g id="a_node33"><a xlink:href="a00491.html#gac7e5924475733c189b2318844ae01844" target="_top" xlink:title="This function initializes the buck input pins.">
+<g id="a_node33"><a xlink:href="a00501.html#gac7e5924475733c189b2318844ae01844" target="_top" xlink:title="This function initializes the buck input pins.">
 <polygon fill="white" stroke="black" points="714,-273 714,-292 816,-292 816,-273 714,-273"/>
 <text text-anchor="middle" x="765" y="-280" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_Initialize</text>
 </a>
@@ -637,7 +637,7 @@ var sectionId = 'dynsection-1';
 <!-- Node38 -->
 <g id="node37" class="node">
 <title>Node38</title>
-<g id="a_node37"><a xlink:href="a00491.html#ga45a54def97cc67eb8d36e22a3867d95f" target="_top" xlink:title="This function initializes the output pins for the PWM output and the default buck PWM settings.">
+<g id="a_node37"><a xlink:href="a00501.html#ga45a54def97cc67eb8d36e22a3867d95f" target="_top" xlink:title="This function initializes the output pins for the PWM output and the default buck PWM settings.">
 <polygon fill="white" stroke="black" points="696,-230 696,-249 834,-249 834,-230 696,-230"/>
 <text text-anchor="middle" x="765" y="-237" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_ChannelInitialize</text>
 </a>
@@ -652,7 +652,7 @@ var sectionId = 'dynsection-1';
 <!-- Node41 -->
 <g id="node40" class="node">
 <title>Node41</title>
-<g id="a_node40"><a xlink:href="a00491.html#ga6d12fd9e2f1d4f01ec6db21454693863" target="_top" xlink:title="Initializes the buck PWM module by resetting its registers to default.">
+<g id="a_node40"><a xlink:href="a00501.html#ga6d12fd9e2f1d4f01ec6db21454693863" target="_top" xlink:title="Initializes the buck PWM module by resetting its registers to default.">
 <polygon fill="white" stroke="red" points="698,-387 698,-406 832,-406 832,-387 698,-387"/>
 <text text-anchor="middle" x="765" y="-394" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_ModuleInitialize</text>
 </a>
@@ -667,7 +667,7 @@ var sectionId = 'dynsection-1';
 <!-- Node36 -->
 <g id="node34" class="node">
 <title>Node36</title>
-<g id="a_node34"><a xlink:href="a00491.html#ga7f1d554e08d756b8677b572216908a3a" target="_top" xlink:title="This function clears the selected general purpose input/output pin.">
+<g id="a_node34"><a xlink:href="a00501.html#ga7f1d554e08d756b8677b572216908a3a" target="_top" xlink:title="This function clears the selected general purpose input/output pin.">
 <polygon fill="white" stroke="black" points="905.5,-295 905.5,-314 994.5,-314 994.5,-295 905.5,-295"/>
 <text text-anchor="middle" x="950" y="-302" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_Clear</text>
 </a>
@@ -682,7 +682,7 @@ var sectionId = 'dynsection-1';
 <!-- Node37 -->
 <g id="node36" class="node">
 <title>Node37</title>
-<g id="a_node36"><a xlink:href="a00491.html#ga3d3f91c0e40884874e7df3a67fff23f3" target="_top" xlink:title="This function sets the pin as input or output.">
+<g id="a_node36"><a xlink:href="a00501.html#ga3d3f91c0e40884874e7df3a67fff23f3" target="_top" xlink:title="This function sets the pin as input or output.">
 <polygon fill="white" stroke="black" points="884.5,-333 884.5,-352 1015.5,-352 1015.5,-333 884.5,-333"/>
 <text text-anchor="middle" x="950" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_PrivateInitialize</text>
 </a>
@@ -770,7 +770,7 @@ var sectionId = 'dynsection-1';
 <!-- Node45 -->
 <g id="node43" class="node">
 <title>Node45</title>
-<g id="a_node43"><a xlink:href="a00491.html#gab089e35bcd5d68072aa53298ee276959" target="_top" xlink:title="This function enables the ADC module and starts the ADC cores analog inputs for the required input si...">
+<g id="a_node43"><a xlink:href="a00501.html#gab089e35bcd5d68072aa53298ee276959" target="_top" xlink:title="This function enables the ADC module and starts the ADC cores analog inputs for the required input si...">
 <polygon fill="white" stroke="black" points="548.5,-257 548.5,-276 632.5,-276 632.5,-257 548.5,-257"/>
 <text text-anchor="middle" x="590.5" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00">buckADC_Start</text>
 </a>
@@ -785,7 +785,7 @@ var sectionId = 'dynsection-1';
 <!-- Node46 -->
 <g id="node44" class="node">
 <title>Node46</title>
-<g id="a_node44"><a xlink:href="a00491.html#gac63073d04bc35c0cce5df47ea0d33165" target="_top" xlink:title="This function enables the buck PWM operation.">
+<g id="a_node44"><a xlink:href="a00501.html#gac63073d04bc35c0cce5df47ea0d33165" target="_top" xlink:title="This function enables the buck PWM operation.">
 <polygon fill="white" stroke="black" points="720.5,-183 720.5,-202 809.5,-202 809.5,-183 720.5,-183"/>
 <text text-anchor="middle" x="765" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_Start</text>
 </a>
@@ -806,7 +806,7 @@ var sectionId = 'dynsection-1';
 <!-- Node48 -->
 <g id="node46" class="node">
 <title>Node48</title>
-<g id="a_node46"><a xlink:href="a00513.html#ga3966fddf4ec29e64c6d51a93eee8706f" target="_top" xlink:title="Push button event raised at the &quot;pressed&quot; transition.">
+<g id="a_node46"><a xlink:href="a00463.html#ga3966fddf4ec29e64c6d51a93eee8706f" target="_top" xlink:title="Push button event raised at the &quot;pressed&quot; transition.">
 <polygon fill="white" stroke="black" points="321,-50 321,-69 486,-69 486,-50 321,-50"/>
 <text text-anchor="middle" x="403.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">appPushButton_EventButtonDown</text>
 </a>
@@ -821,7 +821,7 @@ var sectionId = 'dynsection-1';
 <!-- Node49 -->
 <g id="node47" class="node">
 <title>Node49</title>
-<g id="a_node47"><a xlink:href="a00513.html#ga6192986e06dbca144461c0315a2a100f" target="_top" xlink:title="Push button event raised at the &quot;is long pressed&quot; detection.">
+<g id="a_node47"><a xlink:href="a00463.html#ga6192986e06dbca144461c0315a2a100f" target="_top" xlink:title="Push button event raised at the &quot;is long pressed&quot; detection.">
 <polygon fill="white" stroke="black" points="333,-0.5 333,-30.5 474,-30.5 474,-0.5 333,-0.5"/>
 <text text-anchor="start" x="341" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">appPushButton_EventButton</text>
 <text text-anchor="middle" x="403.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">LongPress</text>
@@ -837,7 +837,7 @@ var sectionId = 'dynsection-1';
 <!-- Node50 -->
 <g id="node48" class="node">
 <title>Node50</title>
-<g id="a_node48"><a xlink:href="a00513.html#ga13f736396ad1222ff5cbe35947bd60ac" target="_top" xlink:title="Push button event raised at the &quot;not pressed&quot; transition.">
+<g id="a_node48"><a xlink:href="a00463.html#ga13f736396ad1222ff5cbe35947bd60ac" target="_top" xlink:title="Push button event raised at the &quot;not pressed&quot; transition.">
 <polygon fill="white" stroke="black" points="327,-126 327,-145 480,-145 480,-126 327,-126"/>
 <text text-anchor="middle" x="403.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">appPushButton_EventButtonUp</text>
 </a>
@@ -852,7 +852,7 @@ var sectionId = 'dynsection-1';
 <!-- Node51 -->
 <g id="node49" class="node">
 <title>Node51</title>
-<g id="a_node49"><a xlink:href="a00516.html#gaa3ce9c320a37ebc6e1ae113c82e68747" target="_top" xlink:title="Initializes the push button device driver.">
+<g id="a_node49"><a xlink:href="a00466.html#gaa3ce9c320a37ebc6e1ae113c82e68747" target="_top" xlink:title="Initializes the push button device driver.">
 <polygon fill="white" stroke="black" points="341,-88 341,-107 466,-107 466,-88 341,-88"/>
 <text text-anchor="middle" x="403.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">drv_PushButton_Initialize</text>
 </a>

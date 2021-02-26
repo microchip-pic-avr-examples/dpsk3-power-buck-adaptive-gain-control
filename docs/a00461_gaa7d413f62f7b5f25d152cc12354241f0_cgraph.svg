@@ -67,7 +67,7 @@ var sectionId = 'dynsection-7';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="a00468.html#ga61726ccfa8287fe57683d2aa6423d6e0" target="_top" xlink:title="This function stop the buck converter opration.">
+<g id="a_node2"><a xlink:href="a00478.html#ga61726ccfa8287fe57683d2aa6423d6e0" target="_top" xlink:title="This function stop the buck converter opration.">
 <polygon fill="white" stroke="black" points="151,-19.5 151,-38.5 273,-38.5 273,-19.5 151,-19.5"/>
 <text text-anchor="middle" x="212" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">drv_BuckConverter_Stop</text>
 </a>
@@ -82,7 +82,7 @@ var sectionId = 'dynsection-7';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="a00491.html#gab2905ddac9f94bf8bfa203444c0d3691" target="_top" xlink:title="This function stops the buck PWM output.">
+<g id="a_node3"><a xlink:href="a00501.html#gab2905ddac9f94bf8bfa203444c0d3691" target="_top" xlink:title="This function stops the buck PWM output.">
 <polygon fill="white" stroke="black" points="309,-19.5 309,-38.5 397,-38.5 397,-19.5 309,-19.5"/>
 <text text-anchor="middle" x="353" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckPWM_Stop</text>
 </a>
@@ -97,7 +97,7 @@ var sectionId = 'dynsection-7';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="a00491.html#ga7f1d554e08d756b8677b572216908a3a" target="_top" xlink:title="This function clears the selected general purpose input/output pin.">
+<g id="a_node4"><a xlink:href="a00501.html#ga7f1d554e08d756b8677b572216908a3a" target="_top" xlink:title="This function clears the selected general purpose input/output pin.">
 <polygon fill="white" stroke="black" points="467.5,-38.5 467.5,-57.5 556.5,-57.5 556.5,-38.5 467.5,-38.5"/>
 <text text-anchor="middle" x="512" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">buckGPIO_Clear</text>
 </a>

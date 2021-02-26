@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calib_5fcs_518',['calib_cs',['../a00487.html#ga619f44e96a83b8c723f1e8e24e5c7442',1,'dev_buck_special_functions.c']]],
+  ['calib_5fcs_518',['calib_cs',['../a00497.html#ga619f44e96a83b8c723f1e8e24e5c7442',1,'dev_buck_special_functions.c']]],
   ['can_519',['CAN',['../a01420.html#ab1b536a0b66488fe3567ed766f458b34',1,'TRAP_FLAGS_s']]],
   ['can2_520',['CAN2',['../a01420.html#ab233a4896dfd7c96b827ca3fc3fe7278',1,'TRAP_FLAGS_s']]],
   ['cap_521',['CAP',['../a01112.html#ad860cdbf909ac6c4f0531e0760eaeb31',1,'P33C_PWM_GENERATOR_s']]],
@@ -62,12 +62,12 @@ var searchData=
   ['cpu_5ftcy_577',['CPU_TCY',['../a00384.html#gaf0b0f736eb24034cd2a3643b584c9f7e',1,'dpsk3_hwdescr.h']]],
   ['cs_5fcalib_5fcomplete_578',['cs_calib_complete',['../a01492.html#af78f4ca56ae204a32d6dd7c5d601824c',1,'BUCK_CONVERTER_STATUS_s']]],
   ['cs_5fcalib_5fenable_579',['cs_calib_enable',['../a01492.html#a1fe5c2d73da4c29aebb2986663c8a28b',1,'BUCK_CONVERTER_STATUS_s']]],
-  ['cs_5fcalib_5fsteps_580',['CS_CALIB_STEPS',['../a00489.html#gac3e84f17fbb5a9d23a0e089b210cb080',1,'dev_buck_special_functions.c']]],
+  ['cs_5fcalib_5fsteps_580',['CS_CALIB_STEPS',['../a00499.html#gac3e84f17fbb5a9d23a0e089b210cb080',1,'dev_buck_special_functions.c']]],
   ['ctrl_5finitialize_581',['ctrl_Initialize',['../a01532.html#ad9db676a96d1d3f30adf55e6c03fe5e6',1,'BUCK_LOOP_SETTINGS_s']]],
   ['ctrl_5fprecharge_582',['ctrl_Precharge',['../a01532.html#a1abd824af35613110d119216a9ef6772',1,'BUCK_LOOP_SETTINGS_s']]],
   ['ctrl_5freset_583',['ctrl_Reset',['../a01532.html#a9de67ce75a551430588dd9954a5692c3',1,'BUCK_LOOP_SETTINGS_s']]],
   ['ctrl_5fupdate_584',['ctrl_Update',['../a01532.html#a95eb0e366ec0c0c509d13060e796a7c2',1,'BUCK_LOOP_SETTINGS_s']]],
-  ['currentsenseoffsetcalibration_585',['CurrentSenseOffsetCalibration',['../a00485.html#ga337549d1d76534d9b092d7c8bdaf686a',1,'dev_buck_special_functions.c']]],
+  ['currentsenseoffsetcalibration_585',['CurrentSenseOffsetCalibration',['../a00495.html#ga337549d1d76534d9b092d7c8bdaf686a',1,'dev_buck_special_functions.c']]],
   ['cursor_5fnshift_586',['CURSOR_nSHIFT',['../a00449.html#gab85774f3262ca197051c8ea84c54dfc4',1,'dev_lcd.c']]],
   ['cursor_5foff_587',['CURSOR_OFF',['../a00449.html#gab8896b2f528ef9b5bc78880530ee5ca0',1,'dev_lcd.c']]],
   ['cursor_5fon_588',['CURSOR_ON',['../a00449.html#gabf764a93ccecfc79fed90d889d820508',1,'dev_lcd.c']]],

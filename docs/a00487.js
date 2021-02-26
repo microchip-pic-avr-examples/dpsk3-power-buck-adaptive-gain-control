@@ -1,5 +1,7 @@
 var a00487 =
 [
-    [ "BuckConverterSpecialFunctions", "a00487.html#ga3ae32433f160a13731fbe7e18e62d621", null ],
-    [ "calib_cs", "a00487.html#ga619f44e96a83b8c723f1e8e24e5c7442", null ]
+    [ "Buck Converter State Machine", "a00488.html", "a00488" ],
+    [ "Buck Special Functions", "a00494.html", "a00494" ],
+    [ "Buck Peripheral Configuration", "a00500.html", "a00500" ],
+    [ "Buck Peripheral Templates", "a00506.html", "a00506" ]
 ];

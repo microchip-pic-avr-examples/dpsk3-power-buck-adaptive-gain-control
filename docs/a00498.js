@@ -1,6 +1,4 @@
 var a00498 =
 [
-    [ "Variables & Constants", "a00499.html", "a00499" ],
-    [ "Data Types", "a00500.html", null ],
-    [ "Defines and Macros", "a00501.html", "a00501" ]
+    [ "BUCK_SPECIAL_FUNCTIONS_e", "a00498.html#ga3c2021030c83c9decfce3a892febcb9d", null ]
 ];

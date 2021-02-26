@@ -1,4 +1,4 @@
-<map id="Private Functions" name="Private Functions">
-<area shape="rect" id="node1" href="$a00510.html" title=" " alt="" coords="5,5,168,45"/>
-<area shape="rect" id="node2" title="Private functions of the application layer of the push button task." alt="" coords="216,13,339,38"/>
+<map id="Functions" name="Functions">
+<area shape="rect" id="node1" title="Public functions of the Power Converter Control driver." alt="" coords="215,13,293,38"/>
+<area shape="rect" id="node2" href="$a00512.html" title=" " alt="" coords="5,5,167,45"/>
 </map>
