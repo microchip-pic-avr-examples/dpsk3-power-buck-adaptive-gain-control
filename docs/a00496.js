@@ -1,7 +1,7 @@
 var a00496 =
 [
-    [ "Data Objects", "a00497.html", "a00497" ],
-    [ "Data Object Members", "a00498.html", "a00498" ],
-    [ "Defines & Macros", "a00499.html", "a00499" ],
-    [ "Variables", "a00500.html", "a00500" ]
+    [ "Buck Converter State Machine", "a00497.html", "a00497" ],
+    [ "Buck Special Functions", "a00503.html", "a00503" ],
+    [ "Buck Peripheral Configuration", "a00509.html", "a00509" ],
+    [ "Buck Peripheral Templates", "a00515.html", "a00515" ]
 ];

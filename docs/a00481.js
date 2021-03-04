@@ -1,5 +1,4 @@
 var a00481 =
 [
-    [ "Functions", "a00482.html", "a00482" ],
-    [ "Properties", "a00483.html", "a00483" ]
+    [ "buck", "a00481.html#gad251307f33c9d1fd60c1a55535d61955", null ]
 ];

@@ -1,6 +1,7 @@
 var a00524 =
 [
-    [ "sysOpAmp_Initialize", "a00524.html#gaf4c74cf390185b49d99838e0f9885076", null ],
-    [ "sysOpAmp_ModuleEnable", "a00524.html#ga3cd080c9a48a5d74d8b2f89fdec161da", null ],
-    [ "sysOpAmp_ModuleReset", "a00524.html#ga4dbd2367ecd449226460b0b0a52cbe8b", null ]
+    [ "Data Objects", "a00525.html", "a00525" ],
+    [ "Data Object Members", "a00526.html", "a00526" ],
+    [ "Defines & Macros", "a00527.html", "a00527" ],
+    [ "Variables", "a00528.html", "a00528" ]
 ];

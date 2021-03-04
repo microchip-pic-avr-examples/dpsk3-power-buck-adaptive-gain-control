@@ -1,5 +1,7 @@
 var a01615 =
 [
-    [ "ACoefficients", "a01615.html#a03bf1309ac1c8a67b7965b1a41dad362", null ],
-    [ "BCoefficients", "a01615.html#a6b5296ce3d1269641ff6342db852b44a", null ]
+    [ "AgcFactor", "a01615.html#a33a039fe8965b322341074ddefe53881", null ],
+    [ "AgcMedian", "a01615.html#a3c0670b2b7a0412426c46eed6d621e77", null ],
+    [ "AgcScaler", "a01615.html#ac97f6143fca6e6fc9f433dfe402666b3", null ],
+    [ "ptrAgcObserverFunction", "a01615.html#ab4475a4c794f6fe13b0bd7c17190cfe0", null ]
 ];

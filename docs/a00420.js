@@ -1,7 +1,6 @@
 var a00420 =
 [
-    [ "Public Functions", "a00421.html", "a00421" ],
-    [ "Public Properties", "a00422.html", "a00422" ],
-    [ "Private Functions", "a00423.html", null ],
-    [ "Private Properties", "a00424.html", "a00424" ]
+    [ "User Settings", "a00421.html", "a00421" ],
+    [ "Conversion Macros", "a00423.html", "a00423" ],
+    [ "Microcontroller Abstraction", "a00425.html", "a00425" ]
 ];

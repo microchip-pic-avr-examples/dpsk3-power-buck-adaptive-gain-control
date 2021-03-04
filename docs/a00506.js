@@ -1,7 +1,5 @@
 var a00506 =
 [
-    [ "Public Functions", "a00507.html", "a00507" ],
-    [ "Public Properties", "a00508.html", "a00508" ],
-    [ "Private Functions", "a00509.html", null ],
-    [ "Private Properties", "a00510.html", null ]
+    [ "BuckConverterSpecialFunctions", "a00506.html#ga3ae32433f160a13731fbe7e18e62d621", null ],
+    [ "calib_cs", "a00506.html#ga619f44e96a83b8c723f1e8e24e5c7442", null ]
 ];

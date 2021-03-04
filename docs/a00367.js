@@ -1,4 +1,5 @@
 var a00367 =
 [
-    [ "gpioConfigClear", "a00367.html#gab964f86f667e2391e953d4c267d09663", null ]
+    [ "Dsp_GetConfig", "a00367.html#gaa6137620b2ae63fce63701725d97ee89", null ],
+    [ "Dsp_SetConfig", "a00367.html#gaf288dad5df78426690b7296f0a38bce4", null ]
 ];

@@ -1,8 +1,8 @@
 var modules =
 [
-    [ "Firmware Architecture", "a00511.html", "a00511" ],
-    [ "Hardware Abstraction Layer", "a00528.html", "a00528" ],
-    [ "Application Layer", "a00529.html", "a00529" ],
-    [ "Device Driver Library Layer", "a00530.html", "a00530" ],
-    [ "Library Driver Layer", "a00531.html", "a00531" ]
+    [ "Firmware Architecture", "a00539.html", "a00539" ],
+    [ "Hardware Abstraction Layer", "a00556.html", "a00556" ],
+    [ "Application Layer", "a00557.html", "a00557" ],
+    [ "Device Driver Library Layer", "a00558.html", "a00558" ],
+    [ "Library Driver Layer", "a00559.html", "a00559" ]
 ];

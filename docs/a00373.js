@@ -1,5 +1,4 @@
 var a00373 =
 [
-    [ "User Settings", "a00374.html", "a00374" ],
-    [ "Conversion Macros", "a00375.html", "a00375" ]
+    [ "ccpConfigDefault", "a00373.html#gaace96580ebc36260c1b6072178f25987", null ]
 ];

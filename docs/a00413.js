@@ -1,8 +1,6 @@
 var a00413 =
 [
-    [ "DAC_BUFFER_OPA_INSTANCE", "a00413.html#ga12db0418f0d3984970fbff2b77d86ea9", null ],
-    [ "DAC_OUTPUT_INIT_VALUE", "a00413.html#ga8ca6f3a35334e80ad2fffb2efd570b57", null ],
-    [ "DAC_OUTPUT_INSTANCE", "a00413.html#gabec08b2d9b12805edaddcf94288c3f46", null ],
-    [ "DACOUT_Get", "a00413.html#ga8ba8a7cc89f151d869c7fff72d368d62", null ],
-    [ "DACOUT_Set", "a00413.html#gae819dedb558c1ebfd083be382c1d39ee", null ]
+    [ "User Settings", "a00414.html", "a00414" ],
+    [ "Conversion Macros", "a00416.html", "a00416" ],
+    [ "Microcontroller Abstraction", "a00418.html", "a00418" ]
 ];

@@ -1,7 +1,7 @@
 var a01539 =
 [
-    [ "ad_isns", "a01539.html#aeb1d3c84c495fdc88de3bd38ec28c139", null ],
-    [ "ad_temp", "a01539.html#ab2720dbc3213b84c266064217dcc53ae", null ],
-    [ "ad_vin", "a01539.html#a5b2dc4caf0113cd2fd142a46750a1b53", null ],
-    [ "ad_vout", "a01539.html#ad59de826ef732a92cec6f00ff84c8d01", null ]
+    [ "i_ramp", "a01539.html#ae64b27b0365bdd8e7a3d6e91f2d2b72a", null ],
+    [ "power_good_delay", "a01539.html#a591c3581328cc22ca1fcf04fbe179d6f", null ],
+    [ "power_on_delay", "a01539.html#abbb9b45a6b559e827a494e57415a5e40", null ],
+    [ "v_ramp", "a01539.html#aaebcce978f474595f71be18ed850adb6", null ]
 ];

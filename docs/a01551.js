@@ -1,13 +1,13 @@
 var a01551 =
 [
-    [ "data", "a01551.html#ace365e404e1a839717de3d05ee55d27a", null ],
-    [ "feedback", "a01551.html#a4bdf290e23328593c3529fc00cb5d988", null ],
-    [ "gpio", "a01551.html#a9655fde1811cf7e7a047c1db518e43b2", null ],
-    [ "i_loop", "a01551.html#ae543a879ec2d43fb4047319426c431b4", null ],
-    [ "set_values", "a01551.html#acf310bb58637ce822a55aea5e6ee80de", null ],
-    [ "startup", "a01551.html#ae6f84e16ed482dd002e9e109ccede1b0", null ],
-    [ "state_id", "a01551.html#a39dcaff2683f776cab8d19f12e4ee7a5", null ],
-    [ "status", "a01551.html#a3f64d0961e6a7e4534dafa86d60348b1", null ],
-    [ "sw_node", "a01551.html#a17d0c1176b7be906e4e009e2cf10e3ff", null ],
-    [ "v_loop", "a01551.html#acc8ce31db94494416ddda164332a40c9", null ]
+    [ "controller", "a01551.html#a86e023cf3f4b4255c1b514b6d70ef74f", null ],
+    [ "ctrl_Initialize", "a01551.html#ad9db676a96d1d3f30adf55e6c03fe5e6", null ],
+    [ "ctrl_Precharge", "a01551.html#a1abd824af35613110d119216a9ef6772", null ],
+    [ "ctrl_Reset", "a01551.html#a9de67ce75a551430588dd9954a5692c3", null ],
+    [ "ctrl_Update", "a01551.html#a95eb0e366ec0c0c509d13060e796a7c2", null ],
+    [ "feedback_offset", "a01551.html#a81d3656451b3c24b602aa60c01cd88f6", null ],
+    [ "maximum", "a01551.html#a62d4b288fdba9a5d426a707407903376", null ],
+    [ "minimum", "a01551.html#afc13a108399a3d53cf5993e6fd187f2a", null ],
+    [ "reference", "a01551.html#aad7bda3be2c1e6a89bd7093086bbeec8", null ],
+    [ "trigger_offset", "a01551.html#ad15abe564957bceb1997a22552534262", null ]
 ];

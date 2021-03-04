@@ -1,5 +1,6 @@
 var a00475 =
 [
-    [ "Functions", "a00476.html", "a00476" ],
-    [ "Properties", "a00477.html", "a00477" ]
+    [ "appLED_Dispose", "a00475.html#ga038f968f3d5544cfe50faa2079d7daf6", null ],
+    [ "appLED_Execute", "a00475.html#gaaa8c86cbd692a090f955022c93593a68", null ],
+    [ "appLED_Initialize", "a00475.html#ga900c95201f101cb3c8644bcf7aab8af9", null ]
 ];

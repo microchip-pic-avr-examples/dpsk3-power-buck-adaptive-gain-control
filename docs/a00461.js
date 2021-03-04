@@ -1,4 +1,8 @@
 var a00461 =
 [
-    [ "BuckConverterConstants", "a00461.html#ga41fc86eca9c5ca2037f458a9f425047e", null ]
+    [ "LCD_s", "a01495.html", [
+      [ "enabled", "a01495.html#a085e9fc0863cee4864cf51dcfe1e32df", null ],
+      [ "refresh", "a01495.html#adc2298ffda0c853e699e6da9098f82ae", null ],
+      [ "screen", "a01495.html#aea467a9fc04f0771215b952d26bc4392", null ]
+    ] ]
 ];

@@ -1,5 +1,6 @@
 var a00511 =
 [
-    [ "Device Start Up", "a00512.html", "a00512" ],
-    [ "Main Loop", "a00513.html", "a00513" ]
+    [ "Variables & Constants", "a00512.html", "a00512" ],
+    [ "Data Types", "a00513.html", null ],
+    [ "Defines and Macros", "a00514.html", null ]
 ];

@@ -1,17 +1,7 @@
 var a00528 =
 [
-    [ "Hardware Version ID", "a00372.html", "a00372" ],
-    [ "Microcontroller Device Abstraction", "a00373.html", "a00373" ],
-    [ "State Machine Settings", "a00376.html", "a00376" ],
-    [ "Startup Timing Settings", "a00380.html", "a00380" ],
-    [ "Fault Response Settings", "a00383.html", "a00383" ],
-    [ "PWM Settings", "a00386.html", "a00386" ],
-    [ "Input Voltage Feedback", "a00392.html", "a00392" ],
-    [ "Output Voltage Feedback", "a00396.html", "a00396" ],
-    [ "Phase Current Feedback", "a00400.html", "a00400" ],
-    [ "Temperature Feedback", "a00404.html", "a00404" ],
-    [ "Adaptive Gain Control Feed Forward", "a00408.html", "a00408" ],
-    [ "LC Display Interface Declarations", "a00410.html", "a00410" ],
-    [ "Special Circuit Signals", "a00411.html", "a00411" ],
-    [ "Special Firmware Options", "a00414.html", "a00414" ]
+    [ "v_loop_agc_factor_default", "a00528.html#ga969dc40c30756a1cb88055ed897589d7", null ],
+    [ "v_loop_agc_scaler_default", "a00528.html#gac8ef761bc544b7c137398ef7be00ad13", null ],
+    [ "v_loop_pterm_factor", "a00528.html#gae1ef8104d52fe123c04e1107fd8ff55f", null ],
+    [ "v_loop_pterm_scaler", "a00528.html#ga566701f8f607a93f33e17e799fae6ac5", null ]
 ];
