@@ -1,8 +1,8 @@
 ; **********************************************************************************
 ;  SDK Version: PowerSmart™ Digital Control Library Designer v0.9.12.672
-;  CGS Version: Code Generator Script v3.0.6 (02/03/2021)
+;  CGS Version: Code Generator Script v3.0.7 (03/07/2021)
 ;  Author:      M91406
-;  Date/Time:   02/24/2021 00:14:41
+;  Date/Time:   03/08/2021 16:46:02
 ; **********************************************************************************
 ;  4P4Z Control Library File (Dual Bitshift-Scaling Mode)
 ; **********************************************************************************
