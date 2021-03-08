@@ -253,7 +253,7 @@ volatile uint16_t appPowerSupply_ControllerInitialize(void)
     buck.v_loop.minimum = BUCK_PWM_DC_MIN;
     buck.v_loop.maximum = BUCK_PWM_DC_MAX;
     
-    // Move trigger point 400 ns further in to leave enough room for the AGC computation
+    // Move trigger point ~400 ns further in to leave enough room for the AGC computation
     buck.v_loop.trigger_offset = ((BUCK_PWM_PERIOD >> 1) + BUCK_VOUT_ADC_TRGDLY) - BUCK_AGC_EXEC_DLY; 
     
      // Set Controller Object of Voltage Loop
