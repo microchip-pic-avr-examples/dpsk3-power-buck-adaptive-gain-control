@@ -16,7 +16,7 @@
 
 #include "devices/dev_buck_converter.h" // include the buck covnerter device driver
 #include "drivers/v_loop.h" // include voltage mode control feedback loop object header
-#include "./drivers/v_loop_agc.h" // include adaptive gain control observer header
+#include "drivers/v_loop_agc.h" // include adaptive gain control observer header
 
 /*******************************************************************************
  * @ingroup app-layer-power-control-functions-private
