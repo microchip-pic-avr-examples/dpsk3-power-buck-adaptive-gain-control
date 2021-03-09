@@ -9,7 +9,9 @@ voltage as well as the output voltage, effectively stabilizing the open loop gai
 across all operating conditions.
 
 This example is based on the basic voltage mode code examples for the synchronous buck converter on the 
-Digital Power Starter Kit 3.
+Digital Power Starter Kit 3. The firmware remains almost identical with the exception of the Adaptive Gain Control 
+configuration in file `app_power_config.c` and the additional user-function `v_loop_AGCFactorUpdate` in the Assembler
+library extension file `v_loop_agc.s`.
 
 ### Features Added\Updated
 This code example runs automatically after power has been applied to the development board. In this initial version 
