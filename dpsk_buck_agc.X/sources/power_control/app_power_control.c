@@ -85,10 +85,12 @@ volatile uint16_t appPowerSupply_Execute(void)
     // Execute buck converter state machine
     retval &= drv_BuckConverter_Execute(&buck);
 
+
     // Buck regulation error is only active while controller is running
     // and while being tied to a valid reference
-    if( (buck.state_id.bits.opstate_id >= BUCK_OPSTATE_RAMPUP) &&
-        (buck.state_id.bits.substate_id >= BUCK_OPSTATE_V_RAMP_UP) )
+    if(((buck.state_id.bits.opstate_id  >= BUCK_OPSTATE_RAMPUP) &&
+        (buck.state_id.bits.substate_id >= BUCK_OPSTATE_V_RAMP_UP)) ||
+       ((buck.state_id.bits.opstate_id  == BUCK_OPSTATE_ONLINE)))
     {
         fltobj_BuckRegErr.ReferenceObject.ptrObject = buck.v_loop.controller->Ports.ptrControlReference;
         #if (PLANT_MEASUREMENT == false)
