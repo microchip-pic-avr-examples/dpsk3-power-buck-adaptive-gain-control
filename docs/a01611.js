@@ -1,17 +1,7 @@
 var a01611 =
 [
-    [ "ACoefficientsArraySize", "a01611.html#ac531fd3e581ecf7941a112346f956800", null ],
-    [ "BCoefficientsArraySize", "a01611.html#a0f44a7f281b9831c9a01cb0145f1f49d", null ],
-    [ "ControlHistoryArraySize", "a01611.html#ae142fcfc24877087d89007045ced6563", null ],
-    [ "ErrorHistoryArraySize", "a01611.html#a1b7d0877bab7259c8f922a1c47ea23b1", null ],
-    [ "normPostScaler", "a01611.html#a26dfdfdfeac973f78fcd8a9cefc81ee2", null ],
-    [ "normPostShiftA", "a01611.html#aee6e82426868c37660937ece5aa56d75", null ],
-    [ "normPostShiftB", "a01611.html#a1797ab1804ff7c8d4ea95092a1809739", null ],
-    [ "normPreShift", "a01611.html#af7053a95a1e3e02b0750539bcf37a35f", null ],
-    [ "PTermFactor", "a01611.html#a1b848b9fb90925fa803fea3196346506", null ],
-    [ "PTermScaler", "a01611.html#a83313da545ad8473d436b087f4ff29b8", null ],
-    [ "ptrACoefficients", "a01611.html#a9fbf6375472798ae4d35533dd776822c", null ],
-    [ "ptrBCoefficients", "a01611.html#a5e6c1af0f3825567c454a36a5b3a2846", null ],
-    [ "ptrControlHistory", "a01611.html#a1437871fb5511f4e29c692a96d7c9914", null ],
-    [ "ptrErrorHistory", "a01611.html#af7c80466342f19512e67e9855374b04d", null ]
+    [ "counter", "a01611.html#a8544f2f5b43d21d6a0a586fc81f9ce92", null ],
+    [ "period", "a01611.html#a48f363c7bcd47589472b59f0a7dfb74b", null ],
+    [ "ref_inc_step", "a01611.html#a832c6be5021565e3da55cbc0a523e744", null ],
+    [ "reference", "a01611.html#aad7bda3be2c1e6a89bd7093086bbeec8", null ]
 ];
