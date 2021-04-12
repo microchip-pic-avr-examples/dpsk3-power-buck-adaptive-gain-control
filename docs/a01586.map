@@ -1,4 +1,4 @@
-<map id="NPNZ_STATUS_s" name="NPNZ_STATUS_s">
-<area shape="rect" id="node1" title="NPNZ16b controller object status and control word." alt="" coords="5,248,172,443"/>
-<area shape="rect" id="node2" href="$a01639.html" title="Global NPNZ controller data object." alt="" coords="18,5,159,200"/>
+<map id="BUCK_CONVERTER_STATUS_s" name="BUCK_CONVERTER_STATUS_s">
+<area shape="rect" id="node1" title="Generic power controller status word." alt="" coords="5,263,221,545"/>
+<area shape="rect" id="node2" href="$a01655.html" title="BUCK control &amp; monitoring data structure." alt="" coords="34,5,193,215"/>
 </map>
