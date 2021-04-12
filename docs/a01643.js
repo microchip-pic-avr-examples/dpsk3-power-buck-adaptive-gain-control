@@ -1,5 +1,7 @@
 var a01643 =
 [
-    [ "ACoefficients", "a01643.html#a03bf1309ac1c8a67b7965b1a41dad362", null ],
-    [ "BCoefficients", "a01643.html#a6b5296ce3d1269641ff6342db852b44a", null ]
+    [ "ad_isns", "a01643.html#aeb1d3c84c495fdc88de3bd38ec28c139", null ],
+    [ "ad_temp", "a01643.html#ab2720dbc3213b84c266064217dcc53ae", null ],
+    [ "ad_vin", "a01643.html#a5b2dc4caf0113cd2fd142a46750a1b53", null ],
+    [ "ad_vout", "a01643.html#ad59de826ef732a92cec6f00ff84c8d01", null ]
 ];

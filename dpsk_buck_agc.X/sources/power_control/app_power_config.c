@@ -337,12 +337,12 @@ volatile uint16_t appPowerSupply_ControllerInitialize(void)
     buck.v_loop.controller->ExtensionHooks.ExtHookSourceFunctionParam = 0;
     buck.v_loop.controller->ExtensionHooks.ptrExtHookPreAntiWindupFunction = NULL;
     buck.v_loop.controller->ExtensionHooks.ExtHookPreAntiWindupFunctionParam = 0;
-    buck.v_loop.controller->ExtensionHooks.ptrExtHookTargetFunction = NULL;
-    buck.v_loop.controller->ExtensionHooks.ExtHookTargetFunctionParam = 0;
-    buck.v_loop.controller->ExtensionHooks.ptrExtHookStopFunction = NULL;
-    buck.v_loop.controller->ExtensionHooks.ExtHookStopFunctionParam = 0;
-    buck.v_loop.controller->ExtensionHooks.ptrExtHookEndFunction = NULL;
-    buck.v_loop.controller->ExtensionHooks.ExtHookEndFunctionParam = 0;
+    buck.v_loop.controller->ExtensionHooks.ptrExtHookPreTargetWriteFunction = NULL;
+    buck.v_loop.controller->ExtensionHooks.ExtHookPreTargetWriteFunctionParam = 0;
+    buck.v_loop.controller->ExtensionHooks.ptrExtHookEndOfLoopFunction = NULL;
+    buck.v_loop.controller->ExtensionHooks.ExtHookEndOfLoopFunctionParam = 0;
+    buck.v_loop.controller->ExtensionHooks.ptrExtHookExitFunction = NULL;
+    buck.v_loop.controller->ExtensionHooks.ExtHookExitFunctionParam = 0;
     
     // Adaptive Gain Control configuration
     buck.v_loop.controller->GainControl.AgcFactor = BUCK_AGC_NOM_FACTOR;
